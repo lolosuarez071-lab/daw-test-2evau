@@ -234,7 +234,7 @@
   <script src="data/sostenibilidad.js"></script>
 
   <script>
-    const TOTAL_PREGUNTAS = 10;
+    const TOTAL_PREGUNTAS = 0;
     const ORDEN_ASIGNATURAS = [
       "programacion",
       "bases_datos",
@@ -264,15 +264,17 @@
       return copia;
     }
 
-    function crearExamen(banco) {
-      if (!banco || banco.length === 0) return [];
-      let resultado = [];
-      while (resultado.length < TOTAL_PREGUNTAS) {
-        resultado = resultado.concat(barajar(banco));
-      }
-      return resultado.slice(0, TOTAL_PREGUNTAS);
-    }
+    function crearExamen(banco, totalPreguntas) {
+  if (!banco || banco.length === 0) return [];
 
+  let resultado = [];
+
+  while (resultado.length < totalPreguntas) {
+    resultado = resultado.concat(barajar(banco));
+  }
+
+  return resultado.slice(0, totalPreguntas);
+}
     function mostrarSolo(id) {
       ["pantallaInicio", "pantallaTemas", "pantallaExamen", "pantallaResultado"].forEach(p => {
         document.getElementById(p).classList.add("oculto");
