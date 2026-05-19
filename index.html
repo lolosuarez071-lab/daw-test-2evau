@@ -234,7 +234,7 @@
   <script src="data/sostenibilidad.js"></script>
 
   <script>
-    const TOTAL_PREGUNTAS = 0;
+    
     const ORDEN_ASIGNATURAS = [
       "programacion",
       "bases_datos",
@@ -354,7 +354,7 @@ function iniciarExamenCompleto() {
 }
 
 function iniciarExamen(totalPreguntas) {
-  examenActual = crearExamen(bancoActual).slice(0, totalPreguntas);
+  examenActual = crearExamen(bancoActual, totalPreguntas);
   indiceActual = 0;
   puntos = 0;
   fallos = [];
