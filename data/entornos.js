@@ -574,7 +574,7 @@ window.QUIZ_DATA["entornos"] = {
         "correcta": "A"
       },
       {
-        "pregunta": "2 de 3 Las pruebas de interfaz gráfica…",
+        "pregunta": " Las pruebas de interfaz gráfica…",
         "opciones": [
           "Normalmente requieren la intervención humana",
           "Normalmente se automatizan",
@@ -982,7 +982,7 @@ window.QUIZ_DATA["entornos"] = {
         "correcta": "B"
       },
       {
-        "pregunta": "2 de 3 En relación con GitLab…",
+        "pregunta": " En relación con GitLab…",
         "opciones": [
           "Permite almacenar menos archivos que GitHub",
           "No permite almacenar imágenes",
