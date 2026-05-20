@@ -18,7 +18,7 @@ window.QUIZ_DATA["entornos"] = {
         "opciones": [
           "Permite mostrar el flujo temporal",
           "No está contemplado en UML",
-          "Se puede utilizar para planificación temporal del proyecto 19/05/2026, 19:02",
+          "Se puede utilizar para planificación temporal del proyecto ",
           "Ninguna de las anteriores es correcta"
         ],
         "correcta": "C"
@@ -59,7 +59,7 @@ window.QUIZ_DATA["entornos"] = {
           "Es un tipo especial de diagrama de actividad",
           "Es un tipo especial de diagrama de tiempo",
           "Es un tipo especial de diagrama de clase",
-          "Es un tipo especial de diagrama de secuencia 19/05/2026, 19:02"
+          "Es un tipo especial de diagrama de secuencia "
         ],
         "correcta": "B"
       },
@@ -99,7 +99,7 @@ window.QUIZ_DATA["entornos"] = {
           "Es necesario marcar el estado inicial",
           "Hay que tener en cuenta las actividades",
           "Hay que incluir las acciones",
-          "Todas las anteriores son correctas 19/05/2026, 19:02"
+          "Todas las anteriores son correctas "
         ],
         "correcta": "D"
       }
@@ -120,7 +120,7 @@ window.QUIZ_DATA["entornos"] = {
         "opciones": [
           "No se aplica los diagramas de estado",
           "No tiene nada que ver con la informática",
-          "Es imprescindible en los diagramas de estado 19/05/2026, 19:02",
+          "Es imprescindible en los diagramas de estado ",
           "Ninguna de las anteriores es correcta"
         ],
         "correcta": "C"
@@ -161,7 +161,7 @@ window.QUIZ_DATA["entornos"] = {
           "No está soportado por UML",
           "No se puede representar en el sistema",
           "Normalmente se produce con un disparador",
-          "Ninguna de las anteriores es correcta 19/05/2026, 19:02"
+          "Ninguna de las anteriores es correcta "
         ],
         "correcta": "C"
       },
@@ -201,7 +201,7 @@ window.QUIZ_DATA["entornos"] = {
           "Permite mostrar el flujo de ejecución y los estados de los objetos",
           "Se puede reemplazar por un diagrama de secuencia",
           "Se puede reemplazar por un diagrama de clases",
-          "Ninguna de las anteriores es correcta 19/05/2026, 19:02"
+          "Ninguna de las anteriores es correcta "
         ],
         "correcta": "A"
       }
@@ -222,7 +222,7 @@ window.QUIZ_DATA["entornos"] = {
         "opciones": [
           "Solo es necesario contemplar el tiempo de implementación",
           "No es necesario contemplar la realización de pruebas",
-          "Es muy importante añadir el tiempo de pruebas y desarrollo de éstas 19/05/2026, 19:02",
+          "Es muy importante añadir el tiempo de pruebas y desarrollo de éstas ",
           "Ninguna de las anteriores es correcta"
         ],
         "correcta": "C"
@@ -263,7 +263,7 @@ window.QUIZ_DATA["entornos"] = {
           "Son menos potentes que las pruebas estáticas",
           "Permiten comprobar el código en funcionamiento",
           "No se utilizan en la actualidad",
-          "Son solo de un tipo 19/05/2026, 19:02"
+          "Son solo de un tipo "
         ],
         "correcta": "B"
       },
@@ -303,7 +303,7 @@ window.QUIZ_DATA["entornos"] = {
           "Se realizan con la utilización de pruebas funcionales",
           "Es recomendable realizarlas después de las pruebas de regresión",
           "Es recomendable realizarlas después de las pruebas unitarias",
-          "Es mejor realizarlas después de las pruebas de componentes 19/05/2026, 19:02"
+          "Es mejor realizarlas después de las pruebas de componentes "
         ],
         "correcta": "C"
       }
@@ -324,7 +324,7 @@ window.QUIZ_DATA["entornos"] = {
         "opciones": [
           "No son relevantes en el software",
           "No requieren ningún estándar",
-          "Dependerán del tipo de información almacenada 19/05/2026, 19:02",
+          "Dependerán del tipo de información almacenada ",
           "Ninguna de las anteriores es correcta"
         ],
         "correcta": "C"
@@ -365,7 +365,7 @@ window.QUIZ_DATA["entornos"] = {
           "Pueden tener acceso total al código",
           "No pueden ver los detalles de implementación",
           "No se aplican en el software",
-          "No son eficientes para detectar errores 19/05/2026, 19:02"
+          "No son eficientes para detectar errores "
         ],
         "correcta": "A"
       },
@@ -405,7 +405,7 @@ window.QUIZ_DATA["entornos"] = {
           "Permiten aumentar el público objetivo",
           "Actualmente son muy importantes",
           "Se suelen confundir con las pruebas de usabilidad",
-          "Todas las anteriores son correctas 19/05/2026, 19:02"
+          "Todas las anteriores son correctas "
         ],
         "correcta": "D"
       }
@@ -426,7 +426,7 @@ window.QUIZ_DATA["entornos"] = {
         "opciones": [
           "Nunca se incluye en los entornos de desarrollo",
           "Solo se puede utilizar en lenguajes compilados",
-          "Permite la utilización de puntos de ruptura 19/05/2026, 19:02",
+          "Permite la utilización de puntos de ruptura ",
           "Ninguna de las anteriores es correcta"
         ],
         "correcta": "C"
@@ -467,7 +467,7 @@ window.QUIZ_DATA["entornos"] = {
           "Es necesario que sea soportado por el entorno de desarrollo",
           "Es necesario que sea soportado por el hardware subyacente",
           "Deben existir una versión especial de depuración",
-          "Todas las anteriores son correctas 19/05/2026, 19:02"
+          "Todas las anteriores son correctas "
         ],
         "correcta": "D"
       },
@@ -507,7 +507,7 @@ window.QUIZ_DATA["entornos"] = {
           "Tener muchos puntos de ruptura es costoso",
           "Disponer de un depurador es una pérdida de tiempo",
           "Es importante utilizar herramientas adecuadas al desarrollo",
-          "Ninguna de las anteriores es correcta 19/05/2026, 19:02"
+          "Ninguna de las anteriores es correcta "
         ],
         "correcta": "C"
       }
@@ -529,7 +529,7 @@ window.QUIZ_DATA["entornos"] = {
           "No tiene ninguna forma de medirse",
           "Es fundamental para disponer de un buen producto",
           "No se relaciona con las pruebas",
-          "Ninguna de las anteriores es correcta 19/05/2026, 19:02"
+          "Ninguna de las anteriores es correcta "
         ],
         "correcta": "B"
       },
@@ -609,7 +609,7 @@ window.QUIZ_DATA["entornos"] = {
           "Aumentan el número de casos de prueba",
           "No se pueden aplicar al software",
           "Disminuyen el número de casos de prueba",
-          "No afecta al número de casos de prueba 19/05/2026, 19:02"
+          "No afecta al número de casos de prueba "
         ],
         "correcta": "C"
       }
@@ -630,7 +630,7 @@ window.QUIZ_DATA["entornos"] = {
         "opciones": [
           "Pueden ayudar a realizar un borrado seguro",
           "Pueden ayudar a realizar un renombrado de métodos",
-          "Pueden ayudar a realizar un renombrado de variables 19/05/2026, 19:02",
+          "Pueden ayudar a realizar un renombrado de variables ",
           "Todas las anteriores son correctas"
         ],
         "correcta": "D"
@@ -671,7 +671,7 @@ window.QUIZ_DATA["entornos"] = {
           "Se pueden utilizar para conocer el estado de nuestro código",
           "Pueden apoyar en la toma decisiones",
           "Están basados en métricas",
-          "Todas las anteriores son correctas 19/05/2026, 19:02"
+          "Todas las anteriores son correctas "
         ],
         "correcta": "D"
       },
@@ -710,8 +710,8 @@ window.QUIZ_DATA["entornos"] = {
         "opciones": [
           "No son necesarias cuando se hace una refactorización",
           "No se pueden aplicar después de una refactorización",
-          "Son poco eficientes después de una refactorización 19/05/2026, 19:02",
-          "Ninguna de las anteriores es correcta 19/05/2026, 19:02"
+          "Son poco eficientes después de una refactorización ",
+          "Ninguna de las anteriores es correcta "
         ],
         "correcta": "D"
       }
@@ -731,7 +731,7 @@ window.QUIZ_DATA["entornos"] = {
         "pregunta": "Los sistemas de control de versiones…",
         "opciones": [
           "Complican la tarea trabajar con equipos grandes",
-          "Son muy útiles a la hora de trabajar con equipos grandes 19/05/2026, 19:02",
+          "Son muy útiles a la hora de trabajar con equipos grandes ",
           "No son recomendables de utilizar en el código",
           "Ninguna de las anteriores es correcta"
         ],
@@ -772,7 +772,7 @@ window.QUIZ_DATA["entornos"] = {
         "opciones": [
           "Se trata de un sistema Cloud",
           "Permite controlar las versiones del código",
-          "Es un sistema de generación de documentación 19/05/2026, 19:02",
+          "Es un sistema de generación de documentación ",
           "Ninguna de las anteriores es correcta"
         ],
         "correcta": "C"
@@ -813,7 +813,7 @@ window.QUIZ_DATA["entornos"] = {
           "Puede servir a desarrolladores externos",
           "Puede servir a desarrolladores internos",
           "Se puede generar con la herramienta de generación automática de documentación",
-          "Todas las anteriores son correctas 19/05/2026, 19:02 19/05/2026, 19:02"
+          "Todas las anteriores son correctas  "
         ],
         "correcta": "D"
       }
@@ -834,7 +834,7 @@ window.QUIZ_DATA["entornos"] = {
         "opciones": [
           "Puede afectar al rendimiento del equipo",
           "Debe de adaptarse a la forma de trabajo",
-          "Pueden tener interfaz gráfica 19/05/2026, 19:03",
+          "Pueden tener interfaz gráfica ",
           "Todas las anteriores son correctas"
         ],
         "correcta": "D"
@@ -875,7 +875,7 @@ window.QUIZ_DATA["entornos"] = {
           "Es más sencillo en un sistema distribuido",
           "Es más sencillo en un sistema centralizado",
           "Tenemos que hacerlo a nivel de servidor",
-          "Ninguna de las anteriores es correcta 19/05/2026, 19:03"
+          "Ninguna de las anteriores es correcta "
         ],
         "correcta": "C"
       },
@@ -915,7 +915,7 @@ window.QUIZ_DATA["entornos"] = {
           "SVN dispone de mayor compatibilidad",
           "Los sistemas operativos tienen que ser adaptados para este tipo de herramientas",
           "Git posee mayor compatibilidad",
-          "El sistema operativo no influye en estas herramientas 19/05/2026, 19:03"
+          "El sistema operativo no influye en estas herramientas "
         ],
         "correcta": "C"
       }
@@ -937,7 +937,7 @@ window.QUIZ_DATA["entornos"] = {
           "No se utilizan en la actualidad",
           "Permiten simplificar la estructura de nuestra empresa",
           "Son muy lentos",
-          "Ninguna de las anteriores es correcta 19/05/2026, 19:03"
+          "Ninguna de las anteriores es correcta "
         ],
         "correcta": "B"
       },
@@ -1017,7 +1017,7 @@ window.QUIZ_DATA["entornos"] = {
           "Es mejor utilizar GitHub",
           "No es posible utilizar soluciones basadas en la nube",
           "Es mejor utilizar GitLab",
-          "Ninguna de las anteriores es correcta 19/05/2026, 19:03"
+          "Ninguna de las anteriores es correcta "
         ],
         "correcta": "C"
       }
