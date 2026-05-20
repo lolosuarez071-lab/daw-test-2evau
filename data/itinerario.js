@@ -94,7 +94,7 @@ window.QUIZ_DATA["itinerario"] = {
         "correcta": "A"
       },
       {
-        "pregunta": "3 de 4 El líquido a percibir o salario neto se calcula:",
+        "pregunta": " El líquido a percibir o salario neto se calcula:",
         "opciones": [
           "Restando al salario base las deducciones",
           "Restando a los devengos las deducciones y retenciones",
@@ -298,7 +298,7 @@ window.QUIZ_DATA["itinerario"] = {
         "correcta": "B"
       },
       {
-        "pregunta": "¿Cuál de las siguientes no es una vía de reconocimiento de identidad válida para obtener el informe de vida laboral? 3 de 4",
+        "pregunta": "¿Cuál de las siguientes no es una vía de reconocimiento de identidad válida para obtener el informe de vida laboral? ",
         "opciones": [
           "Clave permanente",
           "Nota de voz",
@@ -666,7 +666,7 @@ window.QUIZ_DATA["itinerario"] = {
         "correcta": "C"
       },
       {
-        "pregunta": "Los hitos vitales se pueden identificar categorizando nuestra trayectoria vital en etapas. ¿De qué forma se estructuran estas etapas si diferenciamos primero etapas educativas y después etapas 2 de 4 profesionales?",
+        "pregunta": "Los hitos vitales se pueden identificar categorizando nuestra trayectoria vital en etapas. ¿De qué forma se estructuran estas etapas si diferenciamos primero etapas educativas y después etapas  profesionales?",
         "opciones": [
           "Cronológica",
           "Temporal",
@@ -706,7 +706,7 @@ window.QUIZ_DATA["itinerario"] = {
         "correcta": "C"
       },
       {
-        "pregunta": "3 de 4 ¿Cuál de la siguientes no se considera una ventaja de la resiliencia laboral?:",
+        "pregunta": " ¿Cuál de la siguientes no se considera una ventaja de la resiliencia laboral?:",
         "opciones": [
           "Proporciona evidencias de los resultados alcanzados",
           "Mejora la satisfacción del trabajador",
@@ -972,7 +972,7 @@ window.QUIZ_DATA["itinerario"] = {
         "correcta": "A"
       },
       {
-        "pregunta": "Planificación con registro de las metas, los plazos y las estrategias y acciones definidas para la mejora de las competencias, habilidades y comportamientos: 2 de 4",
+        "pregunta": "Planificación con registro de las metas, los plazos y las estrategias y acciones definidas para la mejora de las competencias, habilidades y comportamientos: ",
         "opciones": [
           "Entorno personal de aprendizaje",
           "Plan individual de desarrollo (PDI)",
@@ -1012,7 +1012,7 @@ window.QUIZ_DATA["itinerario"] = {
         "correcta": "B"
       },
       {
-        "pregunta": "¿Cuál de las siguientes herramientas 2.0 para creación de un PLE sirve para seguir y participar en discusiones de actualidad y para crear y mantener una red profesional? 3 de 4",
+        "pregunta": "¿Cuál de las siguientes herramientas 2.0 para creación de un PLE sirve para seguir y participar en discusiones de actualidad y para crear y mantener una red profesional? ",
         "opciones": [
           "Kindle",
           "Headspace",
