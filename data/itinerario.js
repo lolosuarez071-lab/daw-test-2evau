@@ -17,7 +17,7 @@ window.QUIZ_DATA["itinerario"] = {
         "pregunta": "El salario en especie no puede ser:",
         "opciones": [
           "Superior al 30% del salario total",
-          "Inferior al 30% del salario total 19/05/2026, 19:06",
+          "Inferior al 30% del salario total ",
           "Superior al 30% de los pluses salariales",
           "Inferior al 50% de los pluses salariales"
         ],
@@ -57,7 +57,7 @@ window.QUIZ_DATA["itinerario"] = {
         "pregunta": "Las siglas SMI significan:",
         "opciones": [
           "Salario Máximo Interprofesional",
-          "Salario Mínimo Interprofesional 19/05/2026, 19:06",
+          "Salario Mínimo Interprofesional ",
           "Salario Mínimo Íntegro",
           "Salario Muy Importante"
         ],
@@ -99,7 +99,7 @@ window.QUIZ_DATA["itinerario"] = {
           "Restando al salario base las deducciones",
           "Restando a los devengos las deducciones y retenciones",
           "Restando el salario bruto y el salario base",
-          "Sumando todos los devengos y el salario base 19/05/2026, 19:06"
+          "Sumando todos los devengos y el salario base "
         ],
         "correcta": "B"
       }
@@ -120,7 +120,7 @@ window.QUIZ_DATA["itinerario"] = {
         "opciones": [
           "Teresa, administrativa con un contrato por cuenta ajena a jornada parcial",
           "Hugo, Juez",
-          "Laura, fiscal del Estado 19/05/2026, 19:06",
+          "Laura, fiscal del Estado ",
           "Christian, autónomo con un empleado a su cargo"
         ],
         "correcta": "A"
@@ -160,7 +160,7 @@ window.QUIZ_DATA["itinerario"] = {
         "opciones": [
           "Negociación",
           "Conciliación",
-          "Mediación 19/05/2026, 19:06",
+          "Mediación ",
           "Arbitraje"
         ],
         "correcta": "C"
@@ -200,8 +200,8 @@ window.QUIZ_DATA["itinerario"] = {
         "opciones": [
           "La mejora del clima laboral",
           "La mejora salarial",
-          "La mejora de la comunicación 19/05/2026, 19:06",
-          "El enriquecimiento personal y profesional 19/05/2026, 19:06"
+          "La mejora de la comunicación ",
+          "El enriquecimiento personal y profesional "
         ],
         "correcta": "B"
       }
@@ -222,7 +222,7 @@ window.QUIZ_DATA["itinerario"] = {
         "opciones": [
           "General y especial",
           "General y de autónomos",
-          "Contributivo y no contributivo 19/05/2026, 19:07",
+          "Contributivo y no contributivo ",
           "Altas, bajas y afiliaciones"
         ],
         "correcta": "C"
@@ -261,7 +261,7 @@ window.QUIZ_DATA["itinerario"] = {
         "pregunta": "Para calcular el coste para el empresario de la nómina de un trabajador asociado al FOGASA, se aplica un porcentaje sobre:",
         "opciones": [
           "La base BCCC",
-          "La base BCCP 19/05/2026, 19:07",
+          "La base BCCP ",
           "El salario neto",
           "La base de IRPF"
         ],
@@ -303,7 +303,7 @@ window.QUIZ_DATA["itinerario"] = {
           "Clave permanente",
           "Nota de voz",
           "DNI",
-          "Vía sms 19/05/2026, 19:07"
+          "Vía sms "
         ],
         "correcta": "B"
       }
@@ -323,7 +323,7 @@ window.QUIZ_DATA["itinerario"] = {
         "pregunta": "¿Qué prestación cubre la pérdida económica que se produce cuando, por riesgo en el embarazo, la trabajadora tiene que suspender su contrato de trabajo?",
         "opciones": [
           "Prestación por riesgo del menor",
-          "Prestación por nacimiento 19/05/2026, 19:07",
+          "Prestación por nacimiento ",
           "Prestación por riesgo en el embarazo",
           "Prestación por cuidado del menor"
         ],
@@ -363,7 +363,7 @@ window.QUIZ_DATA["itinerario"] = {
         "pregunta": "Un trabajador que sufre una incapacidad permanente absoluta:",
         "opciones": [
           "No puede realizar su trabajo habitual, pero sí otro trabajo",
-          "No puede realizar ningún trabajo, pero no necesita ayuda de un tercero para vivir 19/05/2026, 19:07",
+          "No puede realizar ningún trabajo, pero no necesita ayuda de un tercero para vivir ",
           "Puede realizar su trabajo habitual, pero con menor capacidad",
           "No puede realizar ningún trabajo y requiere ayuda de un tercero para vivir"
         ],
@@ -402,10 +402,10 @@ window.QUIZ_DATA["itinerario"] = {
       {
         "pregunta": "¿Qué prestación tiene como objetivo prestar los servicios médicos y farmacéuticos precisos para conservar y restablecer la salud de los beneficiarios y su aptitud para trabajar?",
         "opciones": [
-          "Prestación por riesgo en la maternidad 19/05/2026, 19:07",
+          "Prestación por riesgo en la maternidad ",
           "Prestación por asistencia sanitaria",
           "Prestación por incapacidad permanente",
-          "Prestación por muerte y supervivencia 19/05/2026, 19:07"
+          "Prestación por muerte y supervivencia "
         ],
         "correcta": "B"
       }
@@ -426,7 +426,7 @@ window.QUIZ_DATA["itinerario"] = {
         "opciones": [
           "La programación y ciberseguridad",
           "El carnet de manipulador de alimentos",
-          "Saber esculpir madera 19/05/2026, 19:07",
+          "Saber esculpir madera ",
           "La sinceridad"
         ],
         "correcta": "A"
@@ -466,7 +466,7 @@ window.QUIZ_DATA["itinerario"] = {
         "opciones": [
           "El IKIGAI",
           "Ventana de Johari",
-          "Pensamiento crítico 19/05/2026, 19:07",
+          "Pensamiento crítico ",
           "Autoconocimiento"
         ],
         "correcta": "B"
@@ -506,8 +506,8 @@ window.QUIZ_DATA["itinerario"] = {
         "opciones": [
           "Google Meet",
           "Reunión informativa en la sede de la empresa",
-          "Dropbox 19/05/2026, 19:07",
-          "Microsoft Teams 19/05/2026, 19:07"
+          "Dropbox ",
+          "Microsoft Teams "
         ],
         "correcta": "B"
       }
@@ -527,7 +527,7 @@ window.QUIZ_DATA["itinerario"] = {
         "pregunta": "¿Qué área de actuación del proyecto profesional hace mención a la asistencia a talleres y conferencias?",
         "opciones": [
           "Experiencia profesional",
-          "Formación 19/05/2026, 19:07",
+          "Formación ",
           "Marca personal",
           "Competencias profesionales"
         ],
@@ -567,7 +567,7 @@ window.QUIZ_DATA["itinerario"] = {
         "pregunta": "¿Con cuál de las siguientes vías NO se puede acceder a un grado superior?:",
         "opciones": [
           "Con un título de ciclo formativo de grado medio",
-          "Con un título de bachillerato 19/05/2026, 19:07",
+          "Con un título de bachillerato ",
           "Con la prueba de acceso a la universidad para mayores de 25 años",
           "Con la prueba de acceso a un ciclo formativo de grado superior si tienes 17 años"
         ],
@@ -607,9 +607,9 @@ window.QUIZ_DATA["itinerario"] = {
         "pregunta": "¿Cuál de las siguientes afirmaciones no sería correcta en relación con el trabajo en equipo?",
         "opciones": [
           "El trabajo en equipo favorece la motivación",
-          "El trabajo en equipo beneficia a los trabajadores, pero no a la empresa 19/05/2026, 19:07",
+          "El trabajo en equipo beneficia a los trabajadores, pero no a la empresa ",
           "El trabajo en equipo mejora la capacidad de comunicación",
-          "El trabajo en equipo mejora el autoconocimiento 19/05/2026, 19:07"
+          "El trabajo en equipo mejora el autoconocimiento "
         ],
         "correcta": "B"
       }
@@ -629,7 +629,7 @@ window.QUIZ_DATA["itinerario"] = {
         "pregunta": "Las siglas del análisis CAME significan:",
         "opciones": [
           "Corregir, Afrontar, Mantener, Explotar",
-          "Competir, Afrontar, Mantener, Explotar 19/05/2026, 19:07",
+          "Competir, Afrontar, Mantener, Explotar ",
           "Crecer, Afrontar, Mantener, Explotar",
           "Competir, Afrontar, Mantener, Enumerar"
         ],
@@ -711,7 +711,7 @@ window.QUIZ_DATA["itinerario"] = {
           "Proporciona evidencias de los resultados alcanzados",
           "Mejora la satisfacción del trabajador",
           "Mejora la autoestima del trabajador",
-          "Permite aprender de los grandes desafíos 19/05/2026, 19:07"
+          "Permite aprender de los grandes desafíos "
         ],
         "correcta": "A"
       }
@@ -731,7 +731,7 @@ window.QUIZ_DATA["itinerario"] = {
         "pregunta": "Indica cuál de estos factores no se corresponde con el análisis de los factores de demanda:",
         "opciones": [
           "Mejora del nivel educativo.",
-          "La evolución del sector exterior 19/05/2026, 19:07",
+          "La evolución del sector exterior ",
           "La sostenibilidad y el empleo",
           "Las innovaciones tecnológicas"
         ],
@@ -770,7 +770,7 @@ window.QUIZ_DATA["itinerario"] = {
       {
         "pregunta": "¿Cuál de los siguientes es, según lo estudiado, un sector que proporciona empleo verde en auge?",
         "opciones": [
-          "La administración pública 19/05/2026, 19:07",
+          "La administración pública ",
           "La energía renovable",
           "La sanidad",
           "La construcción"
@@ -810,10 +810,10 @@ window.QUIZ_DATA["itinerario"] = {
       {
         "pregunta": "La globalización en el trabajo se refiere a:",
         "opciones": [
-          "La mejora del nivel educativo. 19/05/2026, 19:07",
+          "La mejora del nivel educativo. ",
           "El envejecimiento poblacional.",
           "El compromiso personal.",
-          "Las macrotendencias conjuntas de empleo en el mercado laboral 19/05/2026, 19:07"
+          "Las macrotendencias conjuntas de empleo en el mercado laboral "
         ],
         "correcta": "D"
       }
@@ -833,7 +833,7 @@ window.QUIZ_DATA["itinerario"] = {
         "pregunta": "¿Qué tipo de competencia digital básica se considera la capacidad para realizar compras y rellenar formularios por internet?",
         "opciones": [
           "Fundamentales",
-          "De comunicación 19/05/2026, 19:07",
+          "De comunicación ",
           "De resolución de problemas",
           "De transacción"
         ],
@@ -873,7 +873,7 @@ window.QUIZ_DATA["itinerario"] = {
         "pregunta": "En la construcción de nuestra marca personal, la etapa de autodiagnóstico actual se refiere a:",
         "opciones": [
           "Contar tu historia de forma natural, destacando tus logros",
-          "Investigar tu presencia en la red 19/05/2026, 19:07",
+          "Investigar tu presencia en la red ",
           "Elegir las redes sociales en las que proyectar tu marca online",
           "Participar en eventos y comunidades virtuales"
         ],
@@ -914,8 +914,8 @@ window.QUIZ_DATA["itinerario"] = {
         "opciones": [
           "Un antivirus",
           "El phishing",
-          "El almacenamiento en la nube 19/05/2026, 19:07",
-          "Un programa de control parental 19/05/2026, 19:07"
+          "El almacenamiento en la nube ",
+          "Un programa de control parental "
         ],
         "correcta": "B"
       }
@@ -935,7 +935,7 @@ window.QUIZ_DATA["itinerario"] = {
         "pregunta": "¿Cuál de las siguientes no se considera una característica específica de los PLE?:",
         "opciones": [
           "Aislamiento de otros modelos de aprendizaje",
-          "Objetivos propios de aprendizaje 19/05/2026, 19:07",
+          "Objetivos propios de aprendizaje ",
           "Aprendizaje permanente",
           "Requiere mucha interconexión social"
         ],
@@ -1017,7 +1017,7 @@ window.QUIZ_DATA["itinerario"] = {
           "Kindle",
           "Headspace",
           "LinkedIn",
-          "Evernote 19/05/2026, 19:07"
+          "Evernote "
         ],
         "correcta": "C"
       }
