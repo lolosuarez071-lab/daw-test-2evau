@@ -18,7 +18,7 @@ window.QUIZ_DATA["sistemas"] = {
         "opciones": [
           "Se utiliza solo en sistemas Windows",
           "Muestra el contenido en cache DNS de un equipo cliente en Windows",
-          "Es el comando más utilizado para ver si se están resolviendo correctamente los nombres e IPs 19/05/2026, 19:00",
+          "Es el comando más utilizado para ver si se están resolviendo correctamente los nombres e IPs ",
           "Ninguna de las anteriores es correcta"
         ],
         "correcta": "C"
@@ -57,7 +57,7 @@ window.QUIZ_DATA["sistemas"] = {
         "pregunta": "El registro DNS utilizado para correo electrónico es…",
         "opciones": [
           "AAAA",
-          "MX 19/05/2026, 19:00",
+          "MX ",
           "NS",
           "Ninguna de las anteriores es correcta"
         ],
@@ -97,9 +97,9 @@ window.QUIZ_DATA["sistemas"] = {
         "pregunta": "EL protocolo HTTP se corresponde en el modelo OSI con la…",
         "opciones": [
           "Capa de red",
-          "Capa de sesión 19/05/2026, 19:00",
+          "Capa de sesión ",
           "Capa de aplicación",
-          "Ninguna de las anteriores es correcta 19/05/2026, 19:00"
+          "Ninguna de las anteriores es correcta "
         ],
         "correcta": "C"
       }
@@ -120,7 +120,7 @@ window.QUIZ_DATA["sistemas"] = {
         "opciones": [
           "Muestra el estado global de los protocolos de capa 3",
           "Indica la ruta que recorre un paquete por la red",
-          "Facilita toda la configuración del dispositivo 19/05/2026, 19:00",
+          "Facilita toda la configuración del dispositivo ",
           "Ninguna de las anteriores es correcta"
         ],
         "correcta": "C"
@@ -160,7 +160,7 @@ window.QUIZ_DATA["sistemas"] = {
         "opciones": [
           "LAN WIFI",
           "WLAN",
-          "ETHERWLAN 19/05/2026, 19:00",
+          "ETHERWLAN ",
           "Ninguna de las anteriores es correcta"
         ],
         "correcta": "B"
@@ -200,8 +200,8 @@ window.QUIZ_DATA["sistemas"] = {
         "opciones": [
           "TCP",
           "IP",
-          "SNMP 19/05/2026, 19:00",
-          "Ninguna de las anteriores es correcta 19/05/2026, 19:00"
+          "SNMP ",
+          "Ninguna de las anteriores es correcta "
         ],
         "correcta": "C"
       }
@@ -221,7 +221,7 @@ window.QUIZ_DATA["sistemas"] = {
         "pregunta": "El ataque en el que se infecta a los equipos y servidores tomando el control de los equipos y cifrando la información para a continuación pedir un rescate a cambio de una cuantía económica es conocido como…",
         "opciones": [
           "Ataque de denegación del servicio",
-          "Ataque de fuerza bruta 19/05/2026, 19:00",
+          "Ataque de fuerza bruta ",
           "Ransomware",
           "Ninguna de las anteriores es correcta"
         ],
@@ -260,7 +260,7 @@ window.QUIZ_DATA["sistemas"] = {
       {
         "pregunta": "Los intrusos que tienen como objetivo dañar los sistemas informáticos son conocidos como…",
         "opciones": [
-          "Crackers 19/05/2026, 19:00",
+          "Crackers ",
           "Hackers",
           "Sniffers",
           "Ninguna de las anteriores"
@@ -303,7 +303,7 @@ window.QUIZ_DATA["sistemas"] = {
           "Un tipo de malware que muestra anuncios y publicidad, principalmente en navegadores",
           "Un programa que oculta malware",
           "Un tipo de malware similar a un troyano, pero con mayor eficacia",
-          "Ninguna de las respuestas anteriores es correcta 19/05/2026, 19:00"
+          "Ninguna de las respuestas anteriores es correcta "
         ],
         "correcta": "A"
       }
@@ -324,7 +324,7 @@ window.QUIZ_DATA["sistemas"] = {
         "opciones": [
           "Estructura del sistema de archivos dañado",
           "Disco extraído o desconectado de forma imprevista",
-          "Error de controladora en disco 19/05/2026, 19:00",
+          "Error de controladora en disco ",
           "Ninguna de las anteriores es correcta"
         ],
         "correcta": "C"
@@ -365,7 +365,7 @@ window.QUIZ_DATA["sistemas"] = {
           "Formatear los volúmenes como NTFS",
           "Eliminar los volúmenes",
           "Formatear los volúmenes como FAT32",
-          "Ninguna de las anteriores es correcta 19/05/2026, 19:00"
+          "Ninguna de las anteriores es correcta "
         ],
         "correcta": "B"
       },
@@ -405,7 +405,7 @@ window.QUIZ_DATA["sistemas"] = {
           "Para todas las empresas",
           "Para empresas con más de 100 empleados",
           "Para empresas que traten con datos de carácter personal",
-          "Ninguna de las anteriores es correcta 19/05/2026, 19:00 19/05/2026, 19:00"
+          "Ninguna de las anteriores es correcta  "
         ],
         "correcta": "C"
       }
@@ -425,7 +425,7 @@ window.QUIZ_DATA["sistemas"] = {
         "pregunta": "La versión de Windows Server 2019 diseñada principalmente para entornos virtualizados y cloud es…",
         "opciones": [
           "Essentials",
-          "Standard 19/05/2026, 19:00",
+          "Standard ",
           "Datacenter",
           "Ninguna de las anteriores es correcta"
         ],
@@ -466,7 +466,7 @@ window.QUIZ_DATA["sistemas"] = {
         "opciones": [
           "Dispone de un entorno gráfico similar al de Windows 10",
           "No dispone de entorno gráfico y esta optimizada para entornos cloud",
-          "Admite un máximo de 25 usuarios y 50 dispositivos 19/05/2026, 19:00",
+          "Admite un máximo de 25 usuarios y 50 dispositivos ",
           "Ninguna de las anteriores es correcta"
         ],
         "correcta": "B"
@@ -507,7 +507,7 @@ window.QUIZ_DATA["sistemas"] = {
           "Usuario de escritorio remoto",
           "Usuario",
           "Invitado",
-          "Todas las anteriores son correctas 19/05/2026, 19:00 19/05/2026, 19:00"
+          "Todas las anteriores son correctas  "
         ],
         "correcta": "C"
       }
@@ -528,7 +528,7 @@ window.QUIZ_DATA["sistemas"] = {
         "opciones": [
           "Arbol",
           "Unidad organizativa",
-          "Dominio 19/05/2026, 19:00",
+          "Dominio ",
           "Ninguna de las anteriores es correcta"
         ],
         "correcta": "C"
@@ -569,7 +569,7 @@ window.QUIZ_DATA["sistemas"] = {
           "Active Directory",
           "Directiva de Seguridad local",
           "Administración de equipos",
-          "Ninguna de las anteriores es correcta 19/05/2026, 19:00"
+          "Ninguna de las anteriores es correcta "
         ],
         "correcta": "B"
       },
@@ -609,7 +609,7 @@ window.QUIZ_DATA["sistemas"] = {
           "La administración está fundamentada en directivas",
           "Alta escalabilidad",
           "Distribución jerárquica",
-          "Todas las anteriores son correctas 19/05/2026, 19:00"
+          "Todas las anteriores son correctas "
         ],
         "correcta": "D"
       }
@@ -630,7 +630,7 @@ window.QUIZ_DATA["sistemas"] = {
         "opciones": [
           "tracert",
           "ping",
-          "Ipconfig /all 19/05/2026, 19:00",
+          "Ipconfig /all ",
           "Ninguna de las anteriores es correcta"
         ],
         "correcta": "C"
@@ -671,7 +671,7 @@ window.QUIZ_DATA["sistemas"] = {
           "Permite conectar dos servidores entre si directamente con el mismo cableado",
           "Permite agrupar varias tarjetas de red para balancear la carga de red y obtener alta disponibilidad",
           "Se configura automáticamente al realizar dos o más conexiones en un mismo servidor",
-          "Ninguna de las anteriores es correcta 19/05/2026, 19:00"
+          "Ninguna de las anteriores es correcta "
         ],
         "correcta": "B"
       },
@@ -711,7 +711,7 @@ window.QUIZ_DATA["sistemas"] = {
           "Scripts",
           "Comandos de símbolo del sistema",
           "Comandos de Powershell",
-          "Ninguna de las anteriores es correcta 19/05/2026, 19:00 19/05/2026, 19:00"
+          "Ninguna de las anteriores es correcta  "
         ],
         "correcta": "C"
       }
@@ -732,7 +732,7 @@ window.QUIZ_DATA["sistemas"] = {
         "opciones": [
           "Únicamente sobre aplicaciones del sistema",
           "De auditoria",
-          "De equipos remotos 19/05/2026, 19:00",
+          "De equipos remotos ",
           "Ninguna de las anteriores es correcta"
         ],
         "correcta": "C"
@@ -773,7 +773,7 @@ window.QUIZ_DATA["sistemas"] = {
           "Un servicio",
           "Un proceso",
           "Un log",
-          "Ninguna de las anteriores es correcta 19/05/2026, 19:00"
+          "Ninguna de las anteriores es correcta "
         ],
         "correcta": "B"
       },
@@ -813,7 +813,7 @@ window.QUIZ_DATA["sistemas"] = {
           "El monitor de recursos",
           "El monitor de confiabilidad",
           "El monitor de rendimiento",
-          "Ninguna de las anteriores es correcta 19/05/2026, 19:00 19/05/2026, 19:00"
+          "Ninguna de las anteriores es correcta  "
         ],
         "correcta": "C"
       }
@@ -834,7 +834,7 @@ window.QUIZ_DATA["sistemas"] = {
         "opciones": [
           "Servidor de archivos",
           "Servidor de correo",
-          "Servidor FTP 19/05/2026, 19:00",
+          "Servidor FTP ",
           "Servidor de aplicaciones"
         ],
         "correcta": "C"
@@ -875,7 +875,7 @@ window.QUIZ_DATA["sistemas"] = {
           "Sufrir una parada del servicio si tenemos un corte en la red.",
           "Las pocas opciones de ampliar los recursos de hardware del sistema",
           "Las pocas opciones de ampliar la capacidad de almacenamiento",
-          "Ninguna de las anteriores 19/05/2026, 19:00"
+          "Ninguna de las anteriores "
         ],
         "correcta": "A"
       },
@@ -915,7 +915,7 @@ window.QUIZ_DATA["sistemas"] = {
           "Administrador de Internet Information Services (IIS)",
           "Panel de control",
           "Centro de redes y recursos compartidos",
-          "Ninguna de las anteriores 19/05/2026, 19:00"
+          "Ninguna de las anteriores "
         ],
         "correcta": "A"
       }
@@ -974,7 +974,7 @@ window.QUIZ_DATA["sistemas"] = {
       {
         "pregunta": "Para crear una cuenta tanto en Azure como AWS es necesario…",
         "opciones": [
-          "Un número de teléfono 19/05/2026, 19:00",
+          "Un número de teléfono ",
           "Una tarjeta de crédito",
           "Una cuenta de correo",
           "Todas las anteriores son correctas"
@@ -1014,10 +1014,10 @@ window.QUIZ_DATA["sistemas"] = {
       {
         "pregunta": "El servicio en la nube en el que el cliente desarrolla sus propias aplicaciones, y el proveedor es responsable de administrar la infraestructura en la nube …",
         "opciones": [
-          "Infraestructura como servicio (IaaS) 19/05/2026, 19:00",
+          "Infraestructura como servicio (IaaS) ",
           "Software como servicio (Saas)",
           "Plataforma como servicio (Paas)",
-          "Ninguna de las anteriores es correcta 19/05/2026, 19:00"
+          "Ninguna de las anteriores es correcta "
         ],
         "correcta": "C"
       }
