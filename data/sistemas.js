@@ -298,7 +298,7 @@ window.QUIZ_DATA["sistemas"] = {
         "correcta": "A"
       },
       {
-        "pregunta": "3 de 4 Un adware es…",
+        "pregunta": " Un adware es…",
         "opciones": [
           "Un tipo de malware que muestra anuncios y publicidad, principalmente en navegadores",
           "Un programa que oculta malware",
@@ -932,7 +932,7 @@ window.QUIZ_DATA["sistemas"] = {
         "correcta": "B"
       },
       {
-        "pregunta": "La nube en la que los recursos de infraestructura (servidores, espacio de almacenamiento, red, etc.) son administrados y ejecutados por el proveedor del servicio, pero están compartidos entre los clientes es.… 1 de 4",
+        "pregunta": "La nube en la que los recursos de infraestructura (servidores, espacio de almacenamiento, red, etc.) son administrados y ejecutados por el proveedor del servicio, pero están compartidos entre los clientes es.… ",
         "opciones": [
           "Nube publica",
           "Nube privada",
