@@ -17,7 +17,7 @@ window.QUIZ_DATA["sostenibilidad"] = {
         "pregunta": "La cantidad de contaminantes liberados en el aire desde una fuente determinada en un período de tiempo específico es …",
         "opciones": [
           "Inmisión",
-          "Emisión 19/05/2026, 19:08",
+          "Emisión ",
           "Difusión",
           "Dispersión"
         ],
@@ -57,7 +57,7 @@ window.QUIZ_DATA["sostenibilidad"] = {
         "pregunta": "Los contaminantes que se producen como resultado de procesos fotoquímicos y químicos en la atmósfera son …",
         "opciones": [
           "Contaminantes secundarios",
-          "Contaminantes mixtos 19/05/2026, 19:08",
+          "Contaminantes mixtos ",
           "Contaminantes de origen antropogénico",
           "Contaminantes primarios"
         ],
@@ -99,7 +99,7 @@ window.QUIZ_DATA["sostenibilidad"] = {
           "Auditivo",
           "Cardiovascular",
           "Psicológico",
-          "Cognitivo 19/05/2026, 19:08"
+          "Cognitivo "
         ],
         "correcta": "B"
       }
@@ -118,7 +118,7 @@ window.QUIZ_DATA["sostenibilidad"] = {
       {
         "pregunta": "Las fuentes de radiación emiten …",
         "opciones": [
-          "Radiaciones no ionizantes 19/05/2026, 19:08",
+          "Radiaciones no ionizantes ",
           "Radiaciones ionizantes",
           "Radiaciones artificiales",
           "Radiaciones naturales"
@@ -158,7 +158,7 @@ window.QUIZ_DATA["sostenibilidad"] = {
       {
         "pregunta": "El mercurio de la corteza terrestre es una fuente de contaminación de las aguas…",
         "opciones": [
-          "Natural 19/05/2026, 19:08",
+          "Natural ",
           "Antropogénica",
           "Puntual",
           "Difusa"
@@ -198,10 +198,10 @@ window.QUIZ_DATA["sostenibilidad"] = {
       {
         "pregunta": "Los nitratos y fosfatos son contaminantes de las aguas de tipo …",
         "opciones": [
-          "Sustancias químicas inorgánicas 19/05/2026, 19:08",
+          "Sustancias químicas inorgánicas ",
           "Nutrientes inorgánicos",
           "Materiales en suspensión",
-          "Compuestos orgánicos 19/05/2026, 19:08"
+          "Compuestos orgánicos "
         ],
         "correcta": "B"
       }
@@ -222,7 +222,7 @@ window.QUIZ_DATA["sostenibilidad"] = {
         "opciones": [
           "Doméstico e inorgánico",
           "Doméstico y orgánico",
-          "Municipal y orgánico 19/05/2026, 19:08",
+          "Municipal y orgánico ",
           "Comercial y orgánico"
         ],
         "correcta": "B"
@@ -262,7 +262,7 @@ window.QUIZ_DATA["sostenibilidad"] = {
         "opciones": [
           "Jerarquía de residuo",
           "Sociedad del reciclado",
-          "Economía circular 19/05/2026, 19:08",
+          "Economía circular ",
           "Gestión de residuos"
         ],
         "correcta": "A"
@@ -303,7 +303,7 @@ window.QUIZ_DATA["sostenibilidad"] = {
           "Los restos de comida son un residuo orgánico",
           "Los materiales que no se degradan de forma natural son residuos biodegradables",
           "Los residuos inertes no experimentan cambios físicos, ni químicos ni biológicos",
-          "El aceite usado se considera un residuo líquido atendiendo a la clasificación de residuos según su estado físico 19/05/2026, 19:08"
+          "El aceite usado se considera un residuo líquido atendiendo a la clasificación de residuos según su estado físico "
         ],
         "correcta": "B"
       }
@@ -324,7 +324,7 @@ window.QUIZ_DATA["sostenibilidad"] = {
         "opciones": [
           "Relaciones entre especies",
           "Diversidad biológica",
-          "Servicios ecosistémicos 19/05/2026, 19:08",
+          "Servicios ecosistémicos ",
           "Ecosistema"
         ],
         "correcta": "B"
@@ -365,7 +365,7 @@ window.QUIZ_DATA["sostenibilidad"] = {
           "De apoyo",
           "De abastecimiento",
           "De regulación",
-          "Cultural 19/05/2026, 19:08"
+          "Cultural "
         ],
         "correcta": "C"
       },
@@ -404,8 +404,8 @@ window.QUIZ_DATA["sostenibilidad"] = {
         "opciones": [
           "Deforestación",
           "Cambio climático",
-          "Degradación 19/05/2026, 19:08",
-          "Desertificación 19/05/2026, 19:08"
+          "Degradación ",
+          "Desertificación "
         ],
         "correcta": "D"
       }
@@ -426,7 +426,7 @@ window.QUIZ_DATA["sostenibilidad"] = {
         "opciones": [
           "Emigración",
           "Migración temporal",
-          "Migración interna 19/05/2026, 19:09",
+          "Migración interna ",
           "Inmigración"
         ],
         "correcta": "C"
@@ -465,7 +465,7 @@ window.QUIZ_DATA["sostenibilidad"] = {
         "pregunta": "El conjunto de estrategias y políticas destinadas a mejorar las condiciones de vida en las zonas rurales, fortaleciendo la economía de dichas áreas es …",
         "opciones": [
           "Desarrollo rural",
-          "Refugiados climáticos 19/05/2026, 19:09",
+          "Refugiados climáticos ",
           "España Vacía",
           "Urbanización"
         ],
@@ -504,10 +504,10 @@ window.QUIZ_DATA["sostenibilidad"] = {
       {
         "pregunta": "Una guerra o conflicto se considera un movimiento poblacional de tipo…",
         "opciones": [
-          "Desplazamiento forzado 19/05/2026, 19:09",
+          "Desplazamiento forzado ",
           "Migración temporal",
           "Migración interna",
-          "Migración internacional 19/05/2026, 19:09"
+          "Migración internacional "
         ],
         "correcta": "A"
       }
@@ -527,7 +527,7 @@ window.QUIZ_DATA["sostenibilidad"] = {
         "pregunta": "La brecha salarial es una desigualdad de tipo…",
         "opciones": [
           "Económica",
-          "De género 19/05/2026, 19:09",
+          "De género",
           "Regional",
           "Social"
         ],
@@ -568,7 +568,7 @@ window.QUIZ_DATA["sostenibilidad"] = {
         "opciones": [
           "Inherentes y Universales, Indivisibles e Interdependientes e Inalienables",
           "Universales e Interdependientes",
-          "Interdependientes y Sectoriales 19/05/2026, 19:09",
+          "Interdependientes y Sectoriales ",
           "Globales y homogéneos"
         ],
         "correcta": "A"
@@ -608,8 +608,8 @@ window.QUIZ_DATA["sostenibilidad"] = {
         "opciones": [
           "ODS10",
           "ODS1",
-          "ODS16 19/05/2026, 19:09",
-          "ODS7 19/05/2026, 19:09"
+          "ODS16 ",
+          "ODS7 "
         ],
         "correcta": "A"
       }
@@ -629,7 +629,7 @@ window.QUIZ_DATA["sostenibilidad"] = {
         "pregunta": "¿Cuál de las siguientes acciones NO es una obligación de los Estados para garantizar el derecho a la alimentación?",
         "opciones": [
           "Respetar y proteger el acceso a los alimentos",
-          "Facilitar recursos y herramientas para producir, obtener y comprar alimentos 19/05/2026, 19:09",
+          "Facilitar recursos y herramientas para producir, obtener y comprar alimentos ",
           "Suministrar alimentos en caso de emergencias",
           "Proporcionar alimentos gratuitos a toda la población en todo momento"
         ],
@@ -669,7 +669,7 @@ window.QUIZ_DATA["sostenibilidad"] = {
         "pregunta": "¿Cuál de las siguientes acciones NO es una medida que garantice el derecho a la educación?",
         "opciones": [
           "Aplicación de las obligaciones jurídicas estipuladas por Naciones Unidas y UNESCO",
-          "Desarrollo y cumplimiento de políticas nacionales 19/05/2026, 19:09",
+          "Desarrollo y cumplimiento de políticas nacionales ",
           "Proveer desayunos saludables a los estudiantes",
           "Fomento de políticas inclusivas hacia los grupos vulnerables"
         ],
@@ -710,8 +710,8 @@ window.QUIZ_DATA["sostenibilidad"] = {
         "opciones": [
           "Eliminar las desigualdades de género en la educación",
           "Reducir la tasa mundial de mortalidad materna",
-          "Reducir la mortalidad neonatal 19/05/2026, 19:09",
-          "Reducir las muertes causadas por accidentes de tráfico 19/05/2026, 19:09"
+          "Reducir la mortalidad neonatal ",
+          "Reducir las muertes causadas por accidentes de tráfico "
         ],
         "correcta": "A"
       }
@@ -731,7 +731,7 @@ window.QUIZ_DATA["sostenibilidad"] = {
         "pregunta": "La Organización Internacional del Trabajo es una estructura tripartita que significa que está formada por …",
         "opciones": [
           "Municipios, comunidades autónomas y estado",
-          "ONGs, sindicatos y representantes europeos 19/05/2026, 19:09",
+          "ONGs, sindicatos y representantes europeos ",
           "Las tres potencias de la UE",
           "Representantes de gobiernos, empresas y trabajadores"
         ],
@@ -771,7 +771,7 @@ window.QUIZ_DATA["sostenibilidad"] = {
         "pregunta": "La identificación de los riesgos asociados con el trabajo compete a la especialidad de …",
         "opciones": [
           "Seguridad en el trabajo",
-          "Higiene industrial 19/05/2026, 19:09",
+          "Higiene industrial ",
           "Ergonomía y Psicosociología aplicada",
           "Medicina del trabajo"
         ],
@@ -813,7 +813,7 @@ window.QUIZ_DATA["sostenibilidad"] = {
           "Sistemas de Gestión de Seguridad y Salud en el Trabajo",
           "Sistemas de Gestión de Seguridad en el Trabajo",
           "Sistemas de Gestión de la Seguridad Social en el Trabajo",
-          "Sistemas de Gestión de Salud Social en el Trabajo 19/05/2026, 19:09"
+          "Sistemas de Gestión de Salud Social en el Trabajo "
         ],
         "correcta": "A"
       }
@@ -833,7 +833,7 @@ window.QUIZ_DATA["sostenibilidad"] = {
         "pregunta": "¿Qué evalúa el pilar \"G\" dentro de los criterios ASG?",
         "opciones": [
           "La protección de la biodiversidad.",
-          "El cumplimiento de los objetivos de producción. 19/05/2026, 19:09",
+          "El cumplimiento de los objetivos de producción. ",
           "El comportamiento de los consumidores.",
           "La gestión interna de la empresa."
         ],
@@ -874,7 +874,7 @@ window.QUIZ_DATA["sostenibilidad"] = {
         "opciones": [
           "Ampliar el número de productos disponibles en el mercado.",
           "Reducir los costes económicos de fabricación.",
-          "Crear productos con materiales exclusivamente naturales. 19/05/2026, 19:09",
+          "Crear productos con materiales exclusivamente naturales. ",
           "Minimizar el impacto ambiental de un producto durante todo su ciclo de vida."
         ],
         "correcta": "D"
@@ -914,8 +914,8 @@ window.QUIZ_DATA["sostenibilidad"] = {
         "opciones": [
           "Para reducir el precio de los productos sostenibles",
           "Para demostrar el cumplimiento de criterios sostenibles y generar confianza.",
-          "Para sustituir la normativa ambiental nacional. 19/05/2026, 19:09",
-          "ara aumentar la producción industrial en sectores ecológicos. 19/05/2026, 19:09"
+          "Para sustituir la normativa ambiental nacional. ",
+          "ara aumentar la producción industrial en sectores ecológicos. "
         ],
         "correcta": "B"
       }
@@ -937,7 +937,7 @@ window.QUIZ_DATA["sostenibilidad"] = {
           "Eliminar las regulaciones ambientales.",
           "Minimizar el desperdicio y aprovechar al máximo materiales y recursos.",
           "Sustituir todos los procesos por tecnologías digitales.",
-          "Basarse únicamente en el reciclaje doméstico. 19/05/2026, 19:09"
+          "Basarse únicamente en el reciclaje doméstico. "
         ],
         "correcta": "B"
       },
@@ -1017,7 +1017,7 @@ window.QUIZ_DATA["sostenibilidad"] = {
           "Eliminar la planificación futura.",
           "Comprobar el cumplimiento de objetivos y adaptar las acciones.",
           "Evitar cambios en el modelo de negocio.",
-          "Sustituir la rendición de cuentas por informes puntuales. 19/05/2026, 19:09"
+          "Sustituir la rendición de cuentas por informes puntuales. "
         ],
         "correcta": "B"
       }
