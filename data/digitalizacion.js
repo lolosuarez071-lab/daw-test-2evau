@@ -18,7 +18,7 @@ window.QUIZ_DATA["digitalizacion"] = {
         "opciones": [
           "Procesamiento",
           "Contextualización",
-          "Interpretación 19/05/2026, 19:04",
+          "Interpretación ",
           "Todas las anteriores"
         ],
         "correcta": "D"
@@ -57,7 +57,7 @@ window.QUIZ_DATA["digitalizacion"] = {
         "pregunta": "¿Cuál de las siguientes herramientas se utiliza para el procesamiento de datos en tiempo real a medida que se generan?",
         "opciones": [
           "ETL Tools",
-          "Apache Spark 19/05/2026, 19:04",
+          "Apache Spark ",
           "Streaming",
           "Microsoft SSIS"
         ],
@@ -97,9 +97,9 @@ window.QUIZ_DATA["digitalizacion"] = {
         "pregunta": "¿Cuál es un lenguaje de programación que se usa en el análisis de datos?",
         "opciones": [
           "Python",
-          "Spark 19/05/2026, 19:04",
+          "Spark ",
           "Tableau",
-          "Hadoop 19/05/2026, 19:04"
+          "Hadoop "
         ],
         "correcta": "A"
       }
@@ -120,7 +120,7 @@ window.QUIZ_DATA["digitalizacion"] = {
         "opciones": [
           "Solo datos estructurados",
           "Solo datos no estructurados",
-          "Ambos datos estructurados y no estructurados 19/05/2026, 19:04",
+          "Ambos datos estructurados y no estructurados ",
           "Ningún tipo de datos"
         ],
         "correcta": "C"
@@ -158,7 +158,7 @@ window.QUIZ_DATA["digitalizacion"] = {
       {
         "pregunta": "¿Qué es la última etapa crítica en la ciencia de datos?",
         "opciones": [
-          "Visualización y presentación de datos 19/05/2026, 19:04",
+          "Visualización y presentación de datos ",
           "Implementación de soluciones basadas en datos",
           "Almacenamiento y gestión de datos",
           "Recolección de datos"
@@ -201,7 +201,7 @@ window.QUIZ_DATA["digitalizacion"] = {
           "Completo",
           "Incremental",
           "Diferencial",
-          "Automático 19/05/2026, 19:04"
+          "Automático "
         ],
         "correcta": "B"
       }
@@ -222,7 +222,7 @@ window.QUIZ_DATA["digitalizacion"] = {
         "opciones": [
           "La RA utiliza cascos de RV mientras que la RV no",
           "La RV superpone información digital sobre el mundo real mientras que la RA no",
-          "La RA mejora el entorno real con elementos digitales, mientras que la RV reemplaza totalmente el entorno real 19/05/2026, 19:04",
+          "La RA mejora el entorno real con elementos digitales, mientras que la RV reemplaza totalmente el entorno real ",
           "La RV utiliza smartphones para capturar el entorno físico, mientras que la RA no"
         ],
         "correcta": "C"
@@ -262,7 +262,7 @@ window.QUIZ_DATA["digitalizacion"] = {
         "opciones": [
           "Proporcionando únicamente teorías escritas",
           "Transformando el aprendizaje en una experiencia lúdica mediante gamificación",
-          "Remplazando a los maestros en el aula 19/05/2026, 19:04",
+          "Remplazando a los maestros en el aula ",
           "Eliminando la necesidad de materiales educativos"
         ],
         "correcta": "B"
@@ -303,7 +303,7 @@ window.QUIZ_DATA["digitalizacion"] = {
           "Unity",
           "Unreal Engine",
           "Tilt Brush",
-          "SketchAR 19/05/2026, 19:04 19/05/2026, 19:04"
+          "SketchAR  "
         ],
         "correcta": "C"
       }
@@ -323,7 +323,7 @@ window.QUIZ_DATA["digitalizacion"] = {
         "pregunta": "¿Cuál de las siguientes actividades NO está incluida en el ecommerce?",
         "opciones": [
           "Ventas minoristas directas.",
-          "Subastas en línea. 19/05/2026, 19:04",
+          "Subastas en línea. ",
           "Intercambio de datos electrónicos (EDI).",
           "Publicidad en televisión."
         ],
@@ -362,7 +362,7 @@ window.QUIZ_DATA["digitalizacion"] = {
       {
         "pregunta": "¿Cuál de las siguientes es una característica del modelo de negocio de dropshipping?",
         "opciones": [
-          "Mantener grandes inventarios 19/05/2026, 19:04",
+          "Mantener grandes inventarios ",
           "Ingresos recurrentes y predecibles",
           "El minorista no maneja el inventario físicamente",
           "Control total sobre la experiencia del cliente"
@@ -405,7 +405,7 @@ window.QUIZ_DATA["digitalizacion"] = {
           "Herramientas de big data",
           "Sistemas automáticos de reordenación",
           "Descuentos y promociones",
-          "Detalles técnicos y beneficios del producto 19/05/2026, 19:04"
+          "Detalles técnicos y beneficios del producto "
         ],
         "correcta": "D"
       }
@@ -426,7 +426,7 @@ window.QUIZ_DATA["digitalizacion"] = {
         "opciones": [
           "Precios más bajos sin importar la calidad del servicio.",
           "Experiencias personalizadas, rápidas y eficientes.",
-          "Productos exclusivamente físicos. 19/05/2026, 19:04",
+          "Productos exclusivamente físicos. ",
           "Eliminar el uso de tecnologías digitales en las empresas."
         ],
         "correcta": "B"
@@ -465,7 +465,7 @@ window.QUIZ_DATA["digitalizacion"] = {
         "pregunta": "¿Qué es un cuello de botella en un proceso operativo?",
         "opciones": [
           "Un punto donde se aumenta la producción.",
-          "Un paso que acelera el flujo de trabajo. 19/05/2026, 19:04",
+          "Un paso que acelera el flujo de trabajo. ",
           "Un punto que ralentiza el flujo de trabajo.",
           "Un área que requiere menos recursos."
         ],
@@ -505,9 +505,9 @@ window.QUIZ_DATA["digitalizacion"] = {
         "pregunta": "¿Qué es lo primero que se debe hacer después de obtener los resultados de la evaluación para identificar áreas claves para la transformación?",
         "opciones": [
           "Identificar patrones y tendencias en los datos",
-          "Consolidar los datos en un formato comprensible y manejable 19/05/2026, 19:04",
+          "Consolidar los datos en un formato comprensible y manejable ",
           "Evaluar el impacto de las deficiencias identificadas",
-          "Detección de anomalías en los resultados 19/05/2026, 19:04"
+          "Detección de anomalías en los resultados "
         ],
         "correcta": "B"
       }
@@ -527,7 +527,7 @@ window.QUIZ_DATA["digitalizacion"] = {
         "pregunta": "¿Cuál es el propósito principal de los Indicadores Clave de Desempeño (KPIs)?",
         "opciones": [
           "Medir el progreso y tomar decisiones informadas",
-          "Alinear la organización y mejorar la transparencia 19/05/2026, 19:05",
+          "Alinear la organización y mejorar la transparencia ",
           "Establecer objetivos y metas claras",
           "Definir métricas específicas para cada área de la empresa"
         ],
@@ -566,7 +566,7 @@ window.QUIZ_DATA["digitalizacion"] = {
       {
         "pregunta": "¿Cuál es el paso final en el proceso de ajustes y adaptaciones basadas en evaluaciones?",
         "opciones": [
-          "Analizar las desviaciones entre los resultados esperados y los reales 19/05/2026, 19:05",
+          "Analizar las desviaciones entre los resultados esperados y los reales ",
           "Implementar los cambios necesarios en procesos, tecnologías y recursos humanos",
           "Documentar los resultados y lecciones aprendidas",
           "Utilizar la documentación para informar futuros proyectos de transformación digital"
@@ -606,10 +606,10 @@ window.QUIZ_DATA["digitalizacion"] = {
       {
         "pregunta": "¿Cuál es la habilidad fundamental que todos los empleados deben desarrollar para contribuir eficazmente a la transformación digital?",
         "opciones": [
-          "Competencia en tecnologías digitales 19/05/2026, 19:05",
+          "Competencia en tecnologías digitales ",
           "Pensamiento analítico y crítico",
           "Adaptabilidad y flexibilidad",
-          "Todas las anteriores 19/05/2026, 19:05"
+          "Todas las anteriores "
         ],
         "correcta": "D"
       }
@@ -630,7 +630,7 @@ window.QUIZ_DATA["digitalizacion"] = {
         "opciones": [
           "Rápida obtención de beneficios en toda la organización",
           "Cohesión y uniformidad en la adopción de nuevas tecnologías",
-          "Menor riesgo inicial y posibilidad de medir resultados 19/05/2026, 19:05",
+          "Menor riesgo inicial y posibilidad de medir resultados ",
           "Impacto inmediato en la competitividad"
         ],
         "correcta": "C"
@@ -669,7 +669,7 @@ window.QUIZ_DATA["digitalizacion"] = {
         "pregunta": "¿Qué es un centro de excelencia (CoE) en una empresa digitalizada?",
         "opciones": [
           "Un equipo multifuncional que trabaja en proyectos específicos",
-          "Una unidad especializada en áreas clave como análisis de datos, innovación tecnológica, y gestión del cambio 19/05/2026, 19:05",
+          "Una unidad especializada en áreas clave como análisis de datos, innovación tecnológica, y gestión del cambio ",
           "Una red de colaboración que utiliza plataformas y herramientas de colaboración digital",
           "Una estructura organizacional plana que reduce niveles jerárquicos"
         ],
@@ -709,9 +709,9 @@ window.QUIZ_DATA["digitalizacion"] = {
         "pregunta": "¿Qué desafío presenta la escalabilidad?",
         "opciones": [
           "La compatibilidad entre diferentes proveedores y tecnologías.",
-          "La consolidación de datos provenientes de diversas fuentes. 19/05/2026, 19:05",
+          "La consolidación de datos provenientes de diversas fuentes. ",
           "Adaptar las tecnologías a medida que la empresa expande sus operaciones.",
-          "Baja moral, reducción de la productividad, fracaso en la adopción de nuevas herramientas. 19/05/2026, 19:05"
+          "Baja moral, reducción de la productividad, fracaso en la adopción de nuevas herramientas. "
         ],
         "correcta": "C"
       }
@@ -732,7 +732,7 @@ window.QUIZ_DATA["digitalizacion"] = {
         "opciones": [
           "Modularidad",
           "Integración",
-          "Automatización 19/05/2026, 19:05",
+          "Automatización ",
           "Todas las anteriores"
         ],
         "correcta": "D"
@@ -770,7 +770,7 @@ window.QUIZ_DATA["digitalizacion"] = {
       {
         "pregunta": "¿Qué se realiza durante la fase de migración de datos en un proceso de integración de ERP?",
         "opciones": [
-          "Personalización del sistema 19/05/2026, 19:05",
+          "Personalización del sistema ",
           "Definición de flujos de trabajo",
           "Consolidación de datos y limpieza de datos",
           "Evaluación de necesidades de cada departamento"
@@ -810,10 +810,10 @@ window.QUIZ_DATA["digitalizacion"] = {
       {
         "pregunta": "¿Qué función principal tiene el componente de Automatización de la Fuerza de Ventas (SFA) en un CRM?",
         "opciones": [
-          "Gestionar campañas de marketing 19/05/2026, 19:05",
+          "Gestionar campañas de marketing ",
           "Almacenar datos de contacto de clientes",
           "Automatizar tareas de ventas y optimizar el proceso de ventas",
-          "Proveer soporte a través de múltiples canales 19/05/2026, 19:05"
+          "Proveer soporte a través de múltiples canales "
         ],
         "correcta": "C"
       }
@@ -833,7 +833,7 @@ window.QUIZ_DATA["digitalizacion"] = {
         "pregunta": "¿Qué protocolo de seguridad utiliza el protocolo HTTP sobre un canal seguro para permitir la autenticación y el cifrado de la información?",
         "opciones": [
           "SSL/TLS",
-          "VPN 19/05/2026, 19:05",
+          "VPN ",
           "HTTPS",
           "FTP"
         ],
@@ -915,7 +915,7 @@ window.QUIZ_DATA["digitalizacion"] = {
           "Se propagan por sí mismos a través de redes sin necesidad de un programa huésped.",
           "Se presentan como software legítimo y permiten acceso remoto al sistema.",
           "Se adjuntan a un programa legítimo o archivo y se replican al ejecutarse, infectando otros archivos o sistemas.",
-          "Se instalan para espiar la actividad del usuario y capturar datos confidenciales. 19/05/2026, 19:05"
+          "Se instalan para espiar la actividad del usuario y capturar datos confidenciales. "
         ],
         "correcta": "C"
       }
@@ -935,7 +935,7 @@ window.QUIZ_DATA["digitalizacion"] = {
         "pregunta": "Según el GDPR, ¿qué principio fundamental se refiere a la necesidad de que los datos sean precisos y actualizados?",
         "opciones": [
           "Legalidad, equidad y transparencia.",
-          "Limitación de la finalidad. 19/05/2026, 19:05",
+          "Limitación de la finalidad. ",
           "Minimización de datos.",
           "Exactitud."
         ],
@@ -976,7 +976,7 @@ window.QUIZ_DATA["digitalizacion"] = {
         "opciones": [
           "Su capacidad para procesar grandes volúmenes de datos.",
           "La dificultad para interpretar cómo y por qué se tomaron decisiones específicas.",
-          "La facilidad de detectar y corregir errores. 19/05/2026, 19:05",
+          "La facilidad de detectar y corregir errores. ",
           "La transparencia en la documentación de los algoritmos."
         ],
         "correcta": "B"
@@ -1016,8 +1016,8 @@ window.QUIZ_DATA["digitalizacion"] = {
         "opciones": [
           "La recopilación masiva de datos.",
           "El análisis y perfilado de datos.",
-          "La privacidad diferencial y anonimización de datos. 19/05/2026, 19:05",
-          "La seguridad desde el diseño. 19/05/2026, 19:05"
+          "La privacidad diferencial y anonimización de datos. ",
+          "La seguridad desde el diseño. "
         ],
         "correcta": "C"
       }
