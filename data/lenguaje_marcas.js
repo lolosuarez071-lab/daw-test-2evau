@@ -676,7 +676,7 @@ window.QUIZ_DATA["lenguaje_marcas"] = {
         "correcta": "B"
       },
       {
-        "pregunta": "2 de 3 ¿Qué elemento se utiliza para identificar de manera única un <item>?",
+        "pregunta": " ¿Qué elemento se utiliza para identificar de manera única un <item>?",
         "opciones": [
           "key",
           "id",
@@ -778,7 +778,7 @@ window.QUIZ_DATA["lenguaje_marcas"] = {
         "correcta": "D"
       },
       {
-        "pregunta": "2 de 3 Indica cual es el operador AND",
+        "pregunta": " Indica cual es el operador AND",
         "opciones": [
           "%",
           "&&",
