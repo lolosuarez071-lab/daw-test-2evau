@@ -298,7 +298,7 @@ window.QUIZ_DATA["programacion"] = {
         "correcta": "B"
       },
       {
-        "pregunta": "¿Cuál de las siguientes excepciones utilizaremos en el tratamiento de ficheros? 3 de 4",
+        "pregunta": "¿Cuál de las siguientes excepciones utilizaremos en el tratamiento de ficheros? ",
         "opciones": [
           "NullPointerException.",
           "FileNotFoundException.",
@@ -830,7 +830,7 @@ window.QUIZ_DATA["programacion"] = {
         "correcta": "B"
       },
       {
-        "pregunta": "¿Cuál es una práctica recomendada para mitigar la inyección SQL en Java? 1 de 4",
+        "pregunta": "¿Cuál es una práctica recomendada para mitigar la inyección SQL en Java? ",
         "opciones": [
           "Utilizar consultas SQL dinámicas concatenando cadenas de texto con datos proporcionados por el usuario.",
           "Permitir cualquier tipo de dato proporcionado por el usuario sin validación.",
@@ -870,7 +870,7 @@ window.QUIZ_DATA["programacion"] = {
         "correcta": "D"
       },
       {
-        "pregunta": "2 de 4 ¿Cuál de las siguientes vulnerabilidades es una de las más comunes en las aplicaciones que interactúan con bases de datos?",
+        "pregunta": " ¿Cuál de las siguientes vulnerabilidades es una de las más comunes en las aplicaciones que interactúan con bases de datos?",
         "opciones": [
           "Cross-Site Scripting (XSS)",
           "Inyección SQL",
@@ -910,7 +910,7 @@ window.QUIZ_DATA["programacion"] = {
         "correcta": "A"
       },
       {
-        "pregunta": "3 de 4 ¿Cuál de los siguientes métodos se utiliza para mover el cursor al siguiente registro en un ResultSet?",
+        "pregunta": " ¿Cuál de los siguientes métodos se utiliza para mover el cursor al siguiente registro en un ResultSet?",
         "opciones": [
           "first()",
           "next()",
@@ -932,7 +932,7 @@ window.QUIZ_DATA["programacion"] = {
         "correcta": "A"
       },
       {
-        "pregunta": "¿Qué patrón se encarga de separar la lógica de negocio de la lógica de acceso a los datos, proporcionando una interfaz entre ellas y facilitando el mantenimiento del código? 1 de 4",
+        "pregunta": "¿Qué patrón se encarga de separar la lógica de negocio de la lógica de acceso a los datos, proporcionando una interfaz entre ellas y facilitando el mantenimiento del código? ",
         "opciones": [
           "Persistencia nativa",
           "DAO",
@@ -972,7 +972,7 @@ window.QUIZ_DATA["programacion"] = {
         "correcta": "A"
       },
       {
-        "pregunta": "2 de 4 ¿Qué anotación se utiliza para marcar un atributo como la clave primaria de una entidad en JPA?",
+        "pregunta": " ¿Qué anotación se utiliza para marcar un atributo como la clave primaria de una entidad en JPA?",
         "opciones": [
           "@PrimaryKey",
           "@Id",
