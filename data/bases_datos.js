@@ -452,7 +452,7 @@ window.QUIZ_DATA["bases_datos"] = {
         "correcta": "C"
       },
       {
-        "pregunta": "DECLARE i NUMBER := 11; BEGIN WHILE i < 10 LOOP DBMS_OUTPUT.PUT_LINE (i); i := i+1; 2 de 4 END LOPP; ¿Qué resultado produciría la sentencia anterior?",
+        "pregunta": "DECLARE i NUMBER := 11; BEGIN WHILE i < 10 LOOP DBMS_OUTPUT.PUT_LINE (i); i := i+1; END LOPP; ¿Qué resultado produciría la sentencia anterior?",
         "opciones": [
           "Mostraría por pantalla los números del 1 al 10",
           "Mostraría por pantalla los números del 1 al 9",
@@ -492,7 +492,7 @@ window.QUIZ_DATA["bases_datos"] = {
         "correcta": "A"
       },
       {
-        "pregunta": "3 de 4 Entre los entornos de desarrollo de SQL más populares se encuentran",
+        "pregunta": " Entre los entornos de desarrollo de SQL más populares se encuentran",
         "opciones": [
           "Eclipse, Atom, Netbeans",
           "Visual SQLStudio, IntelliJ IDEA, RStudioSQL",
@@ -524,7 +524,7 @@ window.QUIZ_DATA["bases_datos"] = {
         "correcta": "C"
       },
       {
-        "pregunta": "DECLARE TYPE RegPersona IS RECORD ( 1 de 4 CODIGO NUMBER (2), NOMBRE VARCHAR2 (40), EDAD NUMBER ); Mediante el código anterior se está",
+        "pregunta": "DECLARE TYPE RegPersona IS RECORD (  CODIGO NUMBER (2), NOMBRE VARCHAR2 (40), EDAD NUMBER ); Mediante el código anterior se está",
         "opciones": [
           "Declarando un array",
           "Declarando un registro",
@@ -554,7 +554,7 @@ window.QUIZ_DATA["bases_datos"] = {
         "correcta": "D"
       },
       {
-        "pregunta": "array_z.LAST; Siendo “array_z” un array, ¿qué devolvería la sentencia anterior? 2 de 4",
+        "pregunta": "array_z.LAST; Siendo “array_z” un array, ¿qué devolvería la sentencia anterior? ",
         "opciones": [
           "El elemento anterior al referenciado",
           "El último elemento del array",
@@ -830,7 +830,7 @@ window.QUIZ_DATA["bases_datos"] = {
         "correcta": "A"
       },
       {
-        "pregunta": "venta5 := NEW venta (0482, ‘Sara Martínez López’, 3000) 1 de 4 ¿Qué se está realizando mediante el código anterior?",
+        "pregunta": "venta5 := NEW venta (0482, ‘Sara Martínez López’, 3000)  ¿Qué se está realizando mediante el código anterior?",
         "opciones": [
           "Se está declarando un objeto",
           "Se está modificando un objeto de tipo venta",
@@ -870,7 +870,7 @@ window.QUIZ_DATA["bases_datos"] = {
         "correcta": "A"
       },
       {
-        "pregunta": "2 de 4 El comando que impide que otros tipos de objeto puedan heredar del objeto en cuestión es",
+        "pregunta": " El comando que impide que otros tipos de objeto puedan heredar del objeto en cuestión es",
         "opciones": [
           "MAP",
           "NOT FINAL",
@@ -910,7 +910,7 @@ window.QUIZ_DATA["bases_datos"] = {
         "correcta": "C"
       },
       {
-        "pregunta": "3 de 4 Cuando un subtipo hereda de un supertipo no instanciable, si queremos que pueda tener instancias, es obligatorio usar la palabra clave",
+        "pregunta": " Cuando un subtipo hereda de un supertipo no instanciable, si queremos que pueda tener instancias, es obligatorio usar la palabra clave",
         "opciones": [
           "NO INSTANTIABLE",
           "INSTANTIABLE",
@@ -932,7 +932,7 @@ window.QUIZ_DATA["bases_datos"] = {
         "correcta": "B"
       },
       {
-        "pregunta": "Los tipos de datos colección VARRAY 1 de 4",
+        "pregunta": "Los tipos de datos colección VARRAY ",
         "opciones": [
           "Están organizados mediante un índice",
           "No tienen un orden específico",
