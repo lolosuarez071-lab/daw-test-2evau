@@ -17,7 +17,7 @@ window.QUIZ_DATA["bases_datos"] = {
         "pregunta": "La cláusula que combina las filas de ambas tablas cuando hay coincidencias en una columna específica es y sólo muestra las filas donde los datos coinciden en ambas tablas es",
         "opciones": [
           "‘CROSS JOIN’",
-          "‘JOIN’ 19/05/2026, 18:57",
+          "‘JOIN’,
           "‘LEFT JOIN’",
           "Ninguna de las anteriores"
         ],
@@ -57,7 +57,7 @@ window.QUIZ_DATA["bases_datos"] = {
         "pregunta": "La consulta siguiente: SELECT * FROM empleados INNER JOIN departamentos ON empleados.e_id = departamentos.d_id;",
         "opciones": [
           "Selecciona el nombre y apellidos de los empleados de cada departamento",
-          "Es errónea 19/05/2026, 18:57",
+          "Es errónea" ,
           "Sería equivalente eliminando la palabra INNER",
           "Ninguna de las anteriores"
         ],
@@ -89,7 +89,7 @@ window.QUIZ_DATA["bases_datos"] = {
           "Los nombres y departamentos de todos los empleados que han sido despedidos",
           "Los nombres y departamentos de los empleados que no están en los departamentos listados en la tabla de despidos",
           "Los nombres y departamentos de todos los empleados, incluyendo aquellos en los departamentos listados en la tabla de despidos",
-          "Sólo los nombres de los empleados que trabajan en los departamentos mencionados en la tabla de despidos 19/05/2026, 18:57"
+          "Sólo los nombres de los empleados que trabajan en los departamentos mencionados en la tabla de despidos",
         ],
         "correcta": "B"
       },
@@ -99,7 +99,7 @@ window.QUIZ_DATA["bases_datos"] = {
           "Los nombres y departamentos de todos los empleados, y las ubicaciones de los departamentos sólo si hay coincidencia en el id",
           "Solo los nombres y departamentos de los empleados que tienen una coincidencia en la tabla de departamentos",
           "Los nombres, departamentos y ubicaciones de todos los departamentos",
-          "Sólo los nombres y departamentos de los empleados 19/05/2026, 18:57"
+          "Sólo los nombres y departamentos de los empleados"
         ],
         "correcta": "A"
       }
@@ -118,7 +118,7 @@ window.QUIZ_DATA["bases_datos"] = {
       {
         "pregunta": "Para insertar nuevos registros en la base de datos se emplea el comando",
         "opciones": [
-          "UPDATE 19/05/2026, 18:58",
+          "UPDATE",
           "INSERT",
           "SELECT",
           "DELETE"
@@ -158,7 +158,7 @@ window.QUIZ_DATA["bases_datos"] = {
       {
         "pregunta": "El tratamiento de datos utilizando herramientas gráficas",
         "opciones": [
-          "Sólo es posible en Oracle. 19/05/2026, 18:58",
+          "Sólo es posible en Oracle",
           "No es posible en ningún caso.",
           "No se utiliza habitualmente porque no es muy útil",
           "Ninguna de las anteriores"
@@ -201,7 +201,7 @@ window.QUIZ_DATA["bases_datos"] = {
           "El resultado de concatenar “:” con el id del autor",
           "Una asignación de valor del campo “id_autor” 19/05/2026, 18:58",
           "Una actualización del campo “autor_id”",
-          "Una variable enlazada 19/05/2026, 18:58"
+          "Una variable enlazada"
         ],
         "correcta": "D"
       }
@@ -323,7 +323,7 @@ window.QUIZ_DATA["bases_datos"] = {
         "pregunta": "El problema de concurrencia que ocurre cuando, durante una transacción, se detectan nuevas filas en un conjunto de datos al repetir una consulta, se conoce como",
         "opciones": [
           "Lectura no repetible",
-          "Lectura sucia 19/05/2026, 18:58",
+          "Lectura sucia",
           "Lectura fantasma",
           "Problema de la modificación perdida"
         ],
@@ -363,7 +363,7 @@ window.QUIZ_DATA["bases_datos"] = {
         "pregunta": "La propiedad de las transacciones que asegura que la base de datos permanezca en un estado estable y consistente después de la transacción es",
         "opciones": [
           "Durabilidad",
-          "Consistencia 19/05/2026, 18:58",
+          "Consistencia",
           "Atomicidad",
           "Estabilidad"
         ],
@@ -402,10 +402,10 @@ window.QUIZ_DATA["bases_datos"] = {
       {
         "pregunta": "El COMMIT de dos fases asegura que todas las operaciones de la transacción distribuida se realicen de manera coherente en",
         "opciones": [
-          "Todos los nodos involucrados 19/05/2026, 18:58",
+          "Todos los nodos involucrados",
           "El nodo principal",
           "Algunos de los nodos",
-          "Ninguna de las anteriores 19/05/2026, 18:58"
+          "Ninguna de las anteriores"
         ],
         "correcta": "A"
       }
@@ -426,7 +426,7 @@ window.QUIZ_DATA["bases_datos"] = {
         "opciones": [
           "Numéricos, object, booleanos, struct o de fecha",
           "Numéricos, de carácter, booleanos, de fecha o LOB",
-          "Numéricos, de fecha o string 19/05/2026, 18:58",
+          "Numéricos, de fecha o string",
           "Struct, LOB, string o booleanos"
         ],
         "correcta": "B"
@@ -596,7 +596,7 @@ window.QUIZ_DATA["bases_datos"] = {
       {
         "pregunta": "Para hacer la extracción de datos de un cursor se utiliza la instrucción",
         "opciones": [
-          "OPEN 19/05/2026, 18:58",
+          "OPEN",
           "EXTRACT",
           "ROWCOUNT",
           "FETCH"
@@ -609,7 +609,7 @@ window.QUIZ_DATA["bases_datos"] = {
           "Son ideales para búsquedas rápidas y dinámicas de datos",
           "Tienen un límite en el número de elementos que pueden contener",
           "No pueden cambiar de tamaño dinámicamente",
-          "Pueden ser almacenados directamente en la base de datos 19/05/2026, 18:58"
+          "Pueden ser almacenados directamente en la base de datos"
         ],
         "correcta": "A"
       }
@@ -631,7 +631,7 @@ window.QUIZ_DATA["bases_datos"] = {
           "Se ejecutan una vez por cada fila afectada",
           "Se ejecutan una vez por cada operación DML",
           "Se ejecutan múltiples veces por cada columna afectada",
-          "Ninguna de las anteriores 19/05/2026, 18:58"
+          "Ninguna de las anteriores"
         ],
         "correcta": "A"
       },
@@ -671,7 +671,7 @@ window.QUIZ_DATA["bases_datos"] = {
           "Están prohibidas dentro de un disparador",
           "Son obligatorias dentro de un disparador",
           "No están recomendadas, pero se pueden realizar dentro de un disparador",
-          "Ninguna de las anteriores 19/05/2026, 18:58"
+          "Ninguna de las anteriores"
         ],
         "correcta": "A"
       },
@@ -711,7 +711,7 @@ window.QUIZ_DATA["bases_datos"] = {
           "DROP TRIGGER",
           "UPDATE TRIGGER",
           "ACTIVE TRIGGER",
-          "Ninguna de las anteriores 19/05/2026, 18:58"
+          "Ninguna de las anteriores"
         ],
         "correcta": "D"
       }
