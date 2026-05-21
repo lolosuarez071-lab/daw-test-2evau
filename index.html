@@ -1,5 +1,580 @@
 <!DOCTYPE html>
 <html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulador test-2Evalu</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    :root {
+      --fondo: #eef2f7;
+      --tarjeta: #ffffff;
+      --texto: #1f2937;
+      --suave: #6b7280;
+      --principal: #111827;
+      --borde: #d1d5db;
+      --ok: #bbf7d0;
+      --ok-borde: #16a34a;
+      --mal: #fecaca;
+      --mal-borde: #dc2626;
+      --aviso: #fff7ed;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--fondo);
+      color: var(--texto);
+    }
+
+    .contenedor {
+      max-width: 980px;
+      margin: 18px auto;
+      background: var(--tarjeta);
+      padding: 18px;
+      border-radius: 16px;
+      box-shadow: 0 10px 28px rgba(0, 0, 0, .12);
+    }
+
+    h1,
+    h2,
+    h3 {
+      text-align: center;
+      margin: 10px 0;
+    }
+
+    .subtitulo {
+      text-align: center;
+      color: var(--suave);
+      margin-top: 0;
+      line-height: 1.4;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 12px;
+      margin-top: 18px;
+    }
+
+    button {
+      font-family: inherit;
+    }
+
+    .boton {
+      width: 100%;
+      border: 0;
+      border-radius: 12px;
+      padding: 14px 16px;
+      font-size: 16px;
+      cursor: pointer;
+      background: var(--principal);
+      color: white;
+      transition: transform .08s ease, opacity .15s ease, background .15s ease;
+    }
+
+    .boton:hover {
+      opacity: .92;
+    }
+
+    .boton:active {
+      transform: scale(.99);
+    }
+
+    .boton.secundario {
+      background: #e5e7eb;
+      color: var(--texto);
+      border: 1px solid var(--borde);
+    }
+
+    .boton.pequeno {
+      width: auto;
+      padding: 10px 13px;
+      font-size: 14px;
+      display: inline-block;
+      margin: 4px;
+    }
+
+    .barra {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 14px 0;
+    }
+
+    .estado {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 8px;
+      text-align: center;
+      margin: 12px 0 18px;
+    }
+
+    .estado div {
+      background: #f3f4f6;
+      border: 1px solid var(--borde);
+      border-radius: 10px;
+      padding: 10px;
+      font-weight: bold;
+    }
+
+    .pregunta {
+      font-size: 20px;
+      font-weight: bold;
+      line-height: 1.45;
+      margin: 18px 0;
+    }
+
+    .opcion {
+      display: block;
+      width: 100%;
+      margin: 9px 0;
+      padding: 13px;
+      border-radius: 12px;
+      border: 1px solid var(--borde);
+      background: #f9fafb;
+      color: var(--texto);
+      text-align: left;
+      font-size: 16px;
+      line-height: 1.35;
+      cursor: pointer;
+    }
+
+    .opcion:hover:not(:disabled) {
+      background: #eef2ff;
+    }
+
+    .opcion.correcta {
+      background: var(--ok);
+      border-color: var(--ok-borde);
+    }
+
+    .opcion.incorrecta {
+      background: var(--mal);
+      border-color: var(--mal-borde);
+    }
+
+    .opcion:disabled {
+      cursor: default;
+      opacity: 1;
+    }
+
+    .mensaje {
+      text-align: center;
+      min-height: 28px;
+      font-weight: bold;
+      margin: 12px 0;
+    }
+
+    .resultado {
+      text-align: center;
+      font-size: 18px;
+      line-height: 1.5;
+    }
+
+    .nota {
+      font-size: 34px;
+      font-weight: bold;
+      margin: 10px 0;
+    }
+
+    .aviso {
+      background: var(--aviso);
+      border: 1px solid #fed7aa;
+      border-radius: 12px;
+      padding: 12px;
+      color: #7c2d12;
+      margin-top: 14px;
+      font-size: 14px;
+      line-height: 1.45;
+    }
+
+    .oculto {
+      display: none;
+    }
+
+    .fallos {
+      margin-top: 18px;
+      text-align: left;
+    }
+
+    .fallo {
+      border: 1px solid var(--borde);
+      border-radius: 12px;
+      padding: 12px;
+      margin: 10px 0;
+      background: #fafafa;
+    }
+
+    .fallo strong {
+      display: block;
+      margin-bottom: 6px;
+    }
+
+    @media (max-width: 600px) {
+      .contenedor {
+        margin: 0;
+        border-radius: 0;
+        min-height: 100vh;
+      }
+
+      .pregunta {
+        font-size: 18px;
+      }
+
+      .opcion {
+        font-size: 15px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="contenedor">
+    <section id="pantallaInicio">
+      <h1>Simulador test-2Evalu</h1>
+      <p class="subtitulo">Elige una asignatura, un tema concreto o un examen aleatorio completo.</p>
+      <div id="listaAsignaturas" class="grid"></div>
+      <div class="aviso">
+        Cada tema tiene 10 preguntas. Los aleatorios contienen 30.
+      </div>
+    </section>
+
+    <section id="pantallaTemas" class="oculto">
+      <h2 id="tituloAsignatura"></h2>
+      <p class="subtitulo">Selecciona un tema o mezcla todos los temas de la asignatura.</p>
+      <div class="barra">
+        <button class="boton secundario pequeno" onclick="mostrarInicio()">Volver a asignaturas</button>
+      </div>
+      <div id="listaTemas" class="grid"></div>
+    </section>
+
+    <section id="pantallaExamen" class="oculto">
+      <h2 id="tituloExamen"></h2>
+      <div class="estado">
+        <div id="contador">Pregunta 1 de 30</div>
+        <div id="aciertos">Aciertos: 0</div>
+        <div id="modo">Modo examen</div>
+      </div>
+      <div id="textoPregunta" class="pregunta"></div>
+      <div id="opciones"></div>
+      <p id="mensaje" class="mensaje"></p>
+      <div class="barra">
+        <button id="btnSiguiente" class="boton pequeno oculto" onclick="siguientePregunta()">Siguiente</button>
+        <button class="boton secundario pequeno" onclick="salirATemas()">Salir</button>
+      </div>
+    </section>
+
+    <section id="pantallaResultado" class="oculto">
+      <h2>Resultado final</h2>
+      <div id="resultado" class="resultado"></div>
+      <div class="barra">
+
+        <button class="boton secundario pequeno" onclick="salirATemas()">Volver a temas</button>
+        <button class="boton secundario pequeno" onclick="mostrarInicio()">Asignaturas</button>
+      </div>
+      <div id="resumenFallos" class="fallos"></div>
+    </section>
+  </div>
+
+  <script src="data/programacion.js"></script>
+  <script src="data/bases_datos.js"></script>
+  <script src="data/lenguaje_marcas.js"></script>
+  <script src="data/sistemas.js"></script>
+  <script src="data/entornos.js"></script>
+  <script src="data/digitalizacion.js"></script>
+  <script src="data/itinerario.js"></script>
+  <script src="data/sostenibilidad.js"></script>
+
+  <script>
+
+    const ORDEN_ASIGNATURAS = [
+      "programacion",
+      "bases_datos",
+      "lenguaje_marcas",
+      "sistemas",
+      "entornos",
+      "digitalizacion",
+      "itinerario",
+      "sostenibilidad"
+    ];
+
+    let asignaturaActual = null;
+    let tituloActual = "";
+    let bancoActual = [];
+    let examenActual = [];
+    let indiceActual = 0;
+
+    let aciertos = 0;
+    let errores = 0;
+
+    let respondida = false;
+    let fallos = [];
+
+
+    function barajar(array) {
+      const copia = [...array];
+      for (let i = copia.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [copia[i], copia[j]] = [copia[j], copia[i]];
+      }
+      return copia;
+    }
+
+    function crearExamen(banco, totalPreguntas) {
+      if (!banco || banco.length === 0) return [];
+
+      let resultado = [];
+
+      while (resultado.length < totalPreguntas) {
+        resultado = resultado.concat(barajar(banco));
+      }
+
+      return resultado.slice(0, totalPreguntas);
+    }
+    function mostrarSolo(id) {
+      ["pantallaInicio", "pantallaTemas", "pantallaExamen", "pantallaResultado"].forEach(p => {
+        document.getElementById(p).classList.add("oculto");
+      });
+      document.getElementById(id).classList.remove("oculto");
+      window.scrollTo(0, 0);
+    }
+
+    function cargarAsignaturas() {
+      const contenedor = document.getElementById("listaAsignaturas");
+      contenedor.innerHTML = "";
+
+      ORDEN_ASIGNATURAS.forEach(clave => {
+        const asignatura = window.QUIZ_DATA[clave];
+        if (!asignatura) return;
+
+        const total = Object.values(asignatura.temas).reduce((suma, tema) => suma + tema.length, 0);
+        const boton = document.createElement("button");
+        boton.className = "boton";
+        boton.textContent = asignatura.nombre + " (" + total + " preguntas)";
+        boton.onclick = () => mostrarTemas(clave);
+        contenedor.appendChild(boton);
+      });
+    }
+
+    function mostrarInicio() {
+      mostrarSolo("pantallaInicio");
+    }
+
+    function mostrarTemas(clave) {
+      asignaturaActual = clave;
+      const asignatura = window.QUIZ_DATA[clave];
+      document.getElementById("tituloAsignatura").textContent = asignatura.nombre;
+
+      const contenedor = document.getElementById("listaTemas");
+      contenedor.innerHTML = "";
+
+      const botonCompleto = document.createElement("button");
+      botonCompleto.className = "boton";
+      botonCompleto.textContent = "Examen aleatorio completo";
+      botonCompleto.onclick = () => iniciarExamenCompleto();
+      contenedor.appendChild(botonCompleto);
+
+      Object.keys(asignatura.temas)
+        .sort((a, b) => parseInt(a.replace(/\D/g, "")) - parseInt(b.replace(/\D/g, "")))
+        .forEach(tema => {
+          const boton = document.createElement("button");
+          boton.className = "boton secundario";
+          boton.textContent = tema;
+          boton.onclick = () => iniciarExamenTema(tema);
+          contenedor.appendChild(boton);
+        });
+
+      mostrarSolo("pantallaTemas");
+    }
+
+    function salirATemas() {
+      if (asignaturaActual) {
+        mostrarTemas(asignaturaActual);
+      } else {
+        mostrarInicio();
+      }
+    }
+
+    function iniciarExamenTema(tema) {
+      const asignatura = window.QUIZ_DATA[asignaturaActual];
+      bancoActual = asignatura.temas[tema];
+      tituloActual = asignatura.nombre + " - " + tema;
+      iniciarExamen(10);
+    }
+
+    function iniciarExamenCompleto() {
+      const asignatura = window.QUIZ_DATA[asignaturaActual];
+      bancoActual = Object.values(asignatura.temas).flat();
+      tituloActual = asignatura.nombre + " - Aleatorio completo";
+      iniciarExamen(30);
+    }
+
+ffunction iniciarExamen(totalPreguntas) {
+      examenActual = crearExamen(bancoActual, totalPreguntas);
+      indiceActual = 0;
+      aciertos = 0;
+      errores = 0;
+      fallos = [];
+      document.getElementById("tituloExamen").textContent = tituloActual;
+      document.getElementById("modo").textContent =
+        examenActual.length + " preguntas";
+      mostrarSolo("pantallaExamen");
+      mostrarPregunta();
+    }
+
+
+    function mostrarPregunta() {
+      respondida = false;
+      const pregunta = examenActual[indiceActual];
+
+      document.getElementById("contador").textContent = "Pregunta " + (indiceActual + 1) + " de " + examenActual.length;
+      document.getElementById("aciertos").textContent = "Aciertos: " + puntos;
+      document.getElementById("textoPregunta").textContent = pregunta.pregunta;
+      document.getElementById("mensaje").textContent = "";
+      document.getElementById("btnSiguiente").classList.add("oculto");
+
+      const opcionesDiv = document.getElementById("opciones");
+      opcionesDiv.innerHTML = "";
+
+      pregunta.opciones.forEach((opcion, index) => {
+        const letra = ["A", "B", "C", "D"][index];
+        const boton = document.createElement("button");
+        boton.className = "opcion";
+        boton.textContent = letra + ") " + opcion;
+        boton.onclick = () => responder(letra, boton);
+        opcionesDiv.appendChild(boton);
+      });
+    }
+
+    function responder(letra, botonElegido) {
+      if (respondida) return;
+      respondida = true;
+      const pregunta = examenActual[indiceActual];
+      const botones =
+        Array.from(document.querySelectorAll(".opcion"));
+      const correcta = pregunta.correcta;
+      botones.forEach((boton, index) => {
+        const letraBoton = ["A", "B", "C", "D"][index];
+        boton.disabled = true;
+        if (letraBoton === correcta) {
+          boton.classList.add("correcta");
+        }
+
+      });
+      if (letra === correcta) {
+        aciertos++;
+        document.getElementById("mensaje").textContent =
+          "Correcto.";
+      } else {
+        errores++;
+        botonElegido.classList.add("incorrecta");
+        fallos.push({
+          pregunta: pregunta.pregunta,
+          marcada: letra,
+          correcta: correcta,
+          opciones: pregunta.opciones
+        });
+
+      }
+
+
+    }
+    document.getElementById("mensaje").textContent = "Incorrecto. La correcta era " + correcta + ".";
+      }
+
+    document.getElementById("aciertos").textContent = "Aciertos: " + puntos;
+    document.getElementById("btnSiguiente").classList.remove("oculto");
+    }
+
+    function siguientePregunta() {
+      indiceActual++;
+      if (indiceActual < examenActual.length) {
+        mostrarPregunta();
+      } else {
+        mostrarResultado();
+      }
+    }
+
+    function mostrarResultado() {
+      mostrarSolo("pantallaResultado");
+      const total = examenActual.length;
+      let T = 3;
+      if (total === 20) {
+        T = 4;
+      } else if (total === 10) {
+        T = 6;
+      }
+
+      let nota = ((aciertos - (errores / T)) * 10) / total;
+      if (nota < 0) {
+        nota = 0;
+      }
+
+      nota = Number(nota.toFixed(2));
+      let frase = "Toca repasar un poco más.";
+      if (nota >= 9) frase = "Muy bien, vas fuerte.";
+      else if (nota >= 7) frase = "Bien, bastante controlado.";
+      else if (nota >= 5) frase = "Aprobado, pero conviene repasar.";
+
+      resultado.innerHTML = `
+<h2>${tituloActual}</h2>
+
+<p>✅ Aciertos: ${aciertos} de ${total}</p>
+
+<p>❌ Errores: ${errores}</p>
+
+<div class="nota">
+📊 Nota: ${nota.toFixed(2)}
+</div>
+
+<p>${frase}</p>
+`;
+
+      const resumen = document.getElementById("resumenFallos");
+      resumen.innerHTML = "";
+
+      if (fallos.length > 0) {
+        const titulo = document.createElement("h3");
+        titulo.textContent = "Preguntas falladas";
+        resumen.appendChild(titulo);
+
+        fallos.forEach(fallo => {
+          const div = document.createElement("div");
+          div.className = "fallo";
+          const correctaTexto = fallo.opciones["ABCD".indexOf(fallo.correcta)];
+          const marcadaTexto = fallo.opciones["ABCD".indexOf(fallo.marcada)];
+
+          div.innerHTML =
+            "<strong>" + escapar(fallo.pregunta) + "</strong><br>" +
+            "Tu respuesta: " + fallo.marcada + ") " + escapar(marcadaTexto || "") + "<br>" +
+            "Correcta: " + fallo.correcta + ") " + escapar(correctaTexto || "");
+
+          resumen.appendChild(div);
+        });
+      }
+    }
+
+    function escapar(texto) {
+      return String(texto)
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;");
+    }
+
+    cargarAsignaturas();
+  </script>
+</body>
+
+</html><!DOCTYPE html>
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
