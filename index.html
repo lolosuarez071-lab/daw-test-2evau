@@ -415,7 +415,7 @@
       iniciarExamen(30);
     }
 
-ffunction iniciarExamen(totalPreguntas) {
+function iniciarExamen(totalPreguntas) {
       examenActual = crearExamen(bancoActual, totalPreguntas);
       indiceActual = 0;
       aciertos = 0;
@@ -434,7 +434,7 @@ ffunction iniciarExamen(totalPreguntas) {
       const pregunta = examenActual[indiceActual];
 
       document.getElementById("contador").textContent = "Pregunta " + (indiceActual + 1) + " de " + examenActual.length;
-      document.getElementById("aciertos").textContent = "Aciertos: " + puntos;
+      document.getElementById("aciertos").textContent = "Aciertos: " + aciertos;
       document.getElementById("textoPregunta").textContent = pregunta.pregunta;
       document.getElementById("mensaje").textContent = "";
       document.getElementById("btnSiguiente").classList.add("oculto");
@@ -454,26 +454,29 @@ ffunction iniciarExamen(totalPreguntas) {
 
     function responder(letra, botonElegido) {
       if (respondida) return;
+
       respondida = true;
+
       const pregunta = examenActual[indiceActual];
-      const botones =
-        Array.from(document.querySelectorAll(".opcion"));
+      const botones = Array.from(document.querySelectorAll(".opcion"));
       const correcta = pregunta.correcta;
+
       botones.forEach((boton, index) => {
         const letraBoton = ["A", "B", "C", "D"][index];
         boton.disabled = true;
+
         if (letraBoton === correcta) {
           boton.classList.add("correcta");
         }
-
       });
+
       if (letra === correcta) {
         aciertos++;
-        document.getElementById("mensaje").textContent =
-          "Correcto.";
+        document.getElementById("mensaje").textContent = "Correcto.";
       } else {
         errores++;
         botonElegido.classList.add("incorrecta");
+
         fallos.push({
           pregunta: pregunta.pregunta,
           marcada: letra,
@@ -481,15 +484,12 @@ ffunction iniciarExamen(totalPreguntas) {
           opciones: pregunta.opciones
         });
 
+        document.getElementById("mensaje").textContent =
+          "Incorrecto. La correcta era " + correcta + ".";
       }
 
-
-    }
-    document.getElementById("mensaje").textContent = "Incorrecto. La correcta era " + correcta + ".";
-      }
-
-    document.getElementById("aciertos").textContent = "Aciertos: " + puntos;
-    document.getElementById("btnSiguiente").classList.remove("oculto");
+      document.getElementById("aciertos").textContent = "Aciertos: " + aciertos;
+      document.getElementById("btnSiguiente").classList.remove("oculto");
     }
 
     function siguientePregunta() {
@@ -521,6 +521,8 @@ ffunction iniciarExamen(totalPreguntas) {
       if (nota >= 9) frase = "Muy bien, vas fuerte.";
       else if (nota >= 7) frase = "Bien, bastante controlado.";
       else if (nota >= 5) frase = "Aprobado, pero conviene repasar.";
+
+      const resultado = document.getElementById("resultado");
 
       resultado.innerHTML = `
 <h2>${tituloActual}</h2>
