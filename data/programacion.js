@@ -141,7 +141,7 @@ window.QUIZ_DATA["programacion"] = {
           "Organización Secuencial.",
           "Organización Directa.",
           "Organización Aleatoria.",
-          "Organización Secuencial Indexada."
+          "Organización Indexada."
         ],
         "correcta": "D"
       },
